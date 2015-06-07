@@ -22,6 +22,18 @@ h2{
   font-weight: 700;
 }
 
+h3{
+  font-family: 'lora', 'serif';
+  color: #C1272D;
+}
+
+section{
+  padding-bottom: 2em;
+  width: 100%;
+  border-bottom: 1px solid;
+  border-color: #3D3D3D;
+}
+
 .head{
   background-color: #89C1B9;
   margin: 0;
@@ -31,6 +43,23 @@ h2{
   width: 100%;
   top: 0;
   left: 0;
+}
+
+.button{
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #C1272D;
+  background-color: #82BFB9;
+  font-size: 1.15rem;
+  padding: 0.25em 0.45em;
+  margin: 0.25em;
+  font-weight: bold;
+}
+
+.button:hover{
+  background-color: #C1272D;
+  color: #82BFB9;
 }
 
 .button-nav{
@@ -50,16 +79,38 @@ h2{
   border-color: white;
 }
 
-.colour-section{
-  display: block;
+.sample-nav{
+  background-color: #89C1B9;
+  width: 30%;
+  height: 2em;
+  margin-bottom: 20px;
 }
 
 #colour{
   margin-top: 200px;
+  color: white;
+}
+
+.colour-box{
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  display: inline-block;
+  font-weight: lighter;
 }
 
 #blue-palette{
-  width: 100px;
-  height: 40px;
   background-color: #171D61;
+}
+
+#red-palette{
+  background-color: #C1272D;
+}
+
+#darkgray-palette{
+  background-color: #3D3D3D;
+}
+
+#aqua-palette{
+  background-color: #89C1B9;
 }
