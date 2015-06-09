@@ -5,37 +5,49 @@
 body{
   font-family: sans-serif;
   margin: 2em;
+  background-color: #171D61;
 }
 
 h1{
-  color: #3D3D3D;
+  color: white;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.1em;
+  border: 3px solid;
+  padding: 0.5em;
+  font-size: 1.5em;
+  float: left;
 }
 
 h2{
-  font-size: 1.5em;
-  font-family: 'Lora', 'serif';
-  color: #C1272D;
-  font-style: italic;
+  font-size: 1.2em;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
   font-weight: 700;
+  background-color: #89C1B9;
+  padding: 0.5em;
+  /*don't know why the width of the background is not the same as the text*/
+  text-transform: uppercase;
 }
 
 h3{
   font-family: 'lora', 'serif';
-  color: #C1272D;
+  color: white;
+  font-weight: lighter;
+}
+
+p{
+  color: white;
 }
 
 section{
   padding-bottom: 2em;
-  width: 100%;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid white;
   border-color: #3D3D3D;
 }
 
 .head{
-  background-color: #89C1B9;
+  background-color: #C1272D;
   margin: 0;
   padding: 2em;
   position: fixed;
@@ -64,26 +76,27 @@ section{
 
 .button-nav{
   color: white;
-  font-weight: lighter;
+  font-family: 'Lora', 'serif';
+  font-style: italic;
   padding: 0 1em;
   text-decoration: none;
-  text-transform: uppercase;
-  font-size: 0.75em;
+  font-size: 0.8em;
   letter-spacing: 0.25em;
   margin: 0;
+  float: right;
+  margin-top: 3em;
 }
 
 .button-nav:hover{
-  background-color: #DDDDDD;
+  background-color: #89C1B9;
   color: #3D3D3D;
   border-color: white;
 }
 
 .sample-nav{
-  background-color: #89C1B9;
   width: 30%;
   height: 2em;
-  margin-bottom: 20px;
+  clear: both;
 }
 
 #colour{
@@ -101,6 +114,7 @@ section{
 
 #blue-palette{
   background-color: #171D61;
+  border: 1px solid white;
 }
 
 #red-palette{
