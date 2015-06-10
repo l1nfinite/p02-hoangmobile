@@ -8,7 +8,7 @@ body{
   background-color: #171D61;
 }
 
-h1{
+.logo{
   color: white;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
@@ -17,6 +17,8 @@ h1{
   padding: 0.5em;
   font-size: 1.5em;
   float: left;
+  margin-top: 0.5em;
+  margin-left: 2em;
 }
 
 h2{
@@ -42,19 +44,19 @@ p{
 
 section{
   padding-bottom: 2em;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #ffffff;
   border-color: #3D3D3D;
 }
 
 .head{
   background-color: #C1272D;
   margin: 0;
-  padding: 2em;
   position: fixed;
   z-index: 2;
   width: 100%;
   top: 0;
   left: 0;
+  height: 5em;
 }
 
 .button{
@@ -72,6 +74,10 @@ section{
 .button:hover{
   background-color: #C1272D;
   color: #82BFB9;
+}
+
+nav{
+  margin-right: 2em;
 }
 
 .button-nav{
@@ -100,7 +106,7 @@ section{
 }
 
 #colour{
-  margin-top: 200px;
+  margin-top: 100px;
   color: white;
 }
 
