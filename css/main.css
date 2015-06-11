@@ -49,9 +49,13 @@ h2{
 }
 
 h3{
-  font-family: 'lora', serif;
+  font-size: 1.17em;
+  font-family: 'Montserrat', sans-serif;
   color: white;
-  font-weight: lighter;
+  font-weight:400;
+  text-transform:uppercase;
+  letter-spacing:0.02em;
+  display:block;
 }
 
 p{
