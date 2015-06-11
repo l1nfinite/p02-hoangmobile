@@ -21,6 +21,16 @@ body{
   margin-left: 2em;
 }
 
+h1{
+  font-size: 1.7em;
+  font-family:'Montserrat', sans-serif;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+
+}
+
 h2{
   font-size: 1.2em;
   font-family: 'Montserrat', sans-serif;
