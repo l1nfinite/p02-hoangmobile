@@ -99,19 +99,21 @@ section code {
 
 .button{
   letter-spacing: 2px;
+  font-family:'Montserrat', serif;
   text-transform: uppercase;
   text-decoration: none;
-  color: #C1272D;
-  background-color: #82BFB9;
+  color: #89C1B9;
+  background-color: transparent;
   font-size: 1.15rem;
   padding: 0.25em 0.45em;
   margin: 0.25em;
-  font-weight: bold;
+  font-weight: 700;
+  outline:solid;
 }
 
 .button:hover{
-  background-color: #C1272D;
-  color: #82BFB9;
+  color: #C1272D;
+  font-family:'Montserrat', serif;
 }
 
 nav{
