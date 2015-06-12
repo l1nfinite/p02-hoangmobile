@@ -58,7 +58,7 @@ h3{
   font-weight:400;
   text-transform:uppercase;
   letter-spacing:0.02em;
-  display:block;
+  display:inline-block;
   font-weight:700;
 }
 
@@ -264,6 +264,40 @@ margin-bottom:-50em;
 
 }
 
+.image-placeholder{
+  border: 1px solid #ccc;
+  width:300px;
+  height:150px;
+  display:inline-block;
+  padding:3.5em; /*wondering if there's a better way to center text in an div box rather than 
+  guessing the #em in the padding*/
+  position:relative;
+
+}
+
+.padding-secondaryService{
+  padding-left:1.7em;
+  padding-right:1.7em;
+
+}
+
+#secondary-service .button {
+  margin-top:1.5em;
+  display:inline-block;
+
+}
+
+.header-wrap{
+  clear:right;
+  display:inline-block;
+}
+
+.header-wrap h2 {
+  float:right;
+  margin-top:-1.25em;
+  text-align:center;
+
+}
 
 
 
