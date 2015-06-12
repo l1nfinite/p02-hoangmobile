@@ -3,10 +3,13 @@
 }
 
 body{
-  font-family: sans-serif;
+  font-family: 'open sans' sans-serif;
   margin: 2em;
   background-color: #171D61;
+  color:#fff;
 }
+
+
 
 .logo{
   color: white;
@@ -19,35 +22,113 @@ body{
   float: left;
   margin-top: 0.5em;
   margin-left: 2em;
+  background-color:transparent;
+}
+
+h1{
+  font-size: 2em;
+  font-family:'Montserrat', sans-serif;
+  color: white;
+  background-color:#89c1b9;
+  padding: 0.1em 0.3em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display:inline-block;
 }
 
 h2{
-  font-size: 1.2em;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  font-family: 'lora', serif;
   color: white;
-  font-weight: 700;
   background-color: #89C1B9;
   padding: 0.1em 0.3em;
-  /*don't know why the width of the background is not the same as the text*/
-  text-transform: uppercase;
+  font-weight:400;
+  text-transform:none;
+  font-style:italic;
+  letter-spacing:0.02em;
   display: inline-block;
+
 }
 
 h3{
-  font-family: 'lora', 'serif';
-  color: white;
-  font-weight: lighter;
+  font-size: 1.17em;
+  font-family: 'Montserrat', sans-serif;
+  color: #89c1b9;
+  font-weight:400;
+  text-transform:uppercase;
+  letter-spacing:0.02em;
+  display:inline-block;
+  font-weight:700;
 }
 
 p{
+  font-family:'open sans', sans-serif;
   color: white;
 }
+
+a{
+  text-decoration:none;
+  color:#89C1B9
+}
+a:hover{
+  color:#C1272D;
+}
+
+a.link-style{
+  color: #fff;
+  text-decoration:none;
+  border-bottom: 0.35em solid #C1272D;
+
+}
+a.link-style:hover{
+  background-color:#C1272D;
+  text-decoration: none;
+  padding:0.2em;
+  border-bottom:none;
+
+}
+
 
 section{
   padding-bottom: 2em;
   border-bottom: 1px solid #ffffff;
   border-color: #3D3D3D;
 }
+
+section code {
+  color:#ccc;
+  padding: 0.5em 0.75em;
+  display:block;
+  width:50%;
+  margin-bottom:0.5em;
+
+}
+
+.section-heading{
+  background-color:transparent;
+  display:block;
+  margin-bottom:1em;
+  padding:0;
+}
+
+h2.section-heading{
+  color:#89C1B9;
+  font-family:'Montserrat', sans-serif;
+  padding-bottom:0;
+  font-size: 1.5em;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+h3.section-heading{
+  font-family:'lora', serif;
+  font-style:italic;
+  color:#C1272D;
+  text-transform: capitalize;
+}
+
 
 .head{
   background-color: #C1272D;
@@ -62,19 +143,21 @@ section{
 
 .button{
   letter-spacing: 2px;
+  font-family:'Montserrat', serif;
   text-transform: uppercase;
   text-decoration: none;
   color: #C1272D;
-  background-color: #82BFB9;
+  background-color: transparent;
   font-size: 1.15rem;
   padding: 0.25em 0.45em;
   margin: 0.25em;
-  font-weight: bold;
+  font-weight: 700;
+  outline:solid;
 }
 
 .button:hover{
-  background-color: #C1272D;
-  color: #82BFB9;
+  color: #89C1B9;
+  font-family:'Montserrat', serif;
 }
 
 nav{
@@ -101,9 +184,10 @@ nav{
 }
 
 .sample-nav{
-  width: 30%;
+  float: none;
   height: 2em;
-  clear: both;
+  padding: 0;
+  display: inline-block;
 }
 
 #colour{
@@ -128,10 +212,90 @@ nav{
   background-color: #C1272D;
 }
 
-#darkgray-palette{
-  background-color: #3D3D3D;
+#darkblue-palette{
+  background-color: #041135;
 }
 
 #aqua-palette{
   background-color: #89C1B9;
+}
+
+form{
+  font-family:'montserrat', sans serif;
+  letter-spacing: 0.15em;
+  text-transform:uppercase;
+  background-color:transparent;
+  padding:1em;
+  color:#fff;
+
+}
+
+#form-name, #form-phone, #form-car, #form-comment {
+  font-family:'open sans', sans-serif;
+  color:#fff;
+  background:transparent;
+  display:inline-block;
+  border-style:solid;
+  border-color:#000;
+  border-width: 2px;
+  padding:0.5em;
+  margin-top:0.5em;
+  margin-bottom:2em;
+  width:50em;
+  display:block;
+
+}
+
+
+input{
+border:none;
+
+}
+
+textarea{
+  margin: 0px 22px 0px 0px;
+  width: 550px;
+  height: 121px;
+
+}/*not sure how to size this using relative measurement.*/
+
+
+h1.h1-keygroups{
+margin-bottom:-50em;
+
+}
+
+.image-placeholder{
+  border: 1px solid #ccc;
+  width:300px;
+  height:150px;
+  display:inline-block;
+  padding:3.5em; /*wondering if there's a better way to center text in an div box rather than
+  guessing the #em in the padding*/
+  position:relative;
+
+}
+
+.padding-secondaryService{
+  padding-left:1.7em;
+  padding-right:1.7em;
+
+}
+
+#secondary-service .button {
+  margin-top:1.5em;
+  display:inline-block;
+
+}
+
+.header-wrap{
+  clear:right;
+  display:inline-block;
+}
+
+.header-wrap h2 {
+  float:right;
+  margin-top:-1.25em;
+  text-align:center;
+
 }
