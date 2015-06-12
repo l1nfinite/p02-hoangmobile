@@ -72,6 +72,21 @@ a:hover{
   color:#C1272D;
 }
 
+a.link-style{
+  color: #fff;
+  text-decoration:none;
+  border-bottom: 0.35em solid #C1272D;
+
+}
+a.link-style:hover{
+  background-color:#C1272D;
+  text-decoration: none;
+  padding:0.2em;
+  border-bottom:none;
+
+}
+
+
 section{
   padding-bottom: 2em;
   border-bottom: 1px solid #ffffff;
