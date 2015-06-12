@@ -9,6 +9,8 @@ body{
   color:#fff;
 }
 
+
+
 .logo{
   color: white;
   text-transform: uppercase;
@@ -101,6 +103,7 @@ section code {
   margin-bottom:0.5em;
 }
 
+
 .head{
   background-color: #C1272D;
   margin: 0;
@@ -117,7 +120,7 @@ section code {
   font-family:'Montserrat', serif;
   text-transform: uppercase;
   text-decoration: none;
-  color: #89C1B9;
+  color: #C1272D;
   background-color: transparent;
   font-size: 1.15rem;
   padding: 0.25em 0.45em;
@@ -127,7 +130,7 @@ section code {
 }
 
 .button:hover{
-  color: #C1272D;
+  color: #89C1B9;
   font-family:'Montserrat', serif;
 }
 
