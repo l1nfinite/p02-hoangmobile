@@ -106,27 +106,27 @@ section code {
 }
 
 .section-heading{
-  color:#C1272D;
   background-color:transparent;
-  font-family:'Montserrat', sans-serif;
-  font-weight: 700;
-  text-transform: capitalize;
-  letter-spacing: 0;
   display:block;
   margin-bottom:1em;
   padding:0;
 }
 
 h1.section-heading{
+  color:#89C1B9;
+  font-family:'Montserrat', sans-serif;
   padding-bottom:0;
-
-
+  font-size: 1.5em;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0;
 }
 
 h3.section-heading{
   font-family:'lora', serif;
   font-style:italic;
   color:#C1272D;
+  text-transform: capitalize;
 }
 
 
