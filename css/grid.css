@@ -30,3 +30,10 @@
 }
 
 /*and so forth, I created a section id="test" to show how to use it in the html, I wasn't sure where you were going to put the panels plus it'll be good practice to do it yourself*/
+
+[class^='col-']{
+/*any class that begins with 'col-' apply the styles*/
+  float: left;
+  padding: 0;
+  text-align: center;
+}
