@@ -54,11 +54,12 @@ h2{
 h3{
   font-size: 1.17em;
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  color: #89c1b9;
   font-weight:400;
   text-transform:uppercase;
   letter-spacing:0.02em;
   display:block;
+  font-weight:700;
 }
 
 p{
@@ -101,6 +102,31 @@ section code {
   display:block;
   width:50%;
   margin-bottom:0.5em;
+
+}
+
+.section-heading{
+  color:#000;
+  background-color:transparent;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  display:block;
+  margin-bottom:0;
+  padding:0;
+}
+
+h1.section-heading{
+  padding-bottom:0;
+
+
+}
+
+h3.section-heading{
+  font-family:'lora', serif;
+  font-style:italic;
+  color:#04102d;
 }
 
 
@@ -185,8 +211,8 @@ nav{
   background-color: #C1272D;
 }
 
-#darkgray-palette{
-  background-color: #3D3D3D;
+#darkblue-palette{
+  background-color: #041135;
 }
 
 #aqua-palette{
@@ -230,9 +256,13 @@ textarea{
   width: 550px; 
   height: 121px;
 
-
 }/*not sure how to size this using relative measurement.*/
 
+
+h1.h1-keygroups{
+margin-bottom:-50em;
+
+}
 
 
 
