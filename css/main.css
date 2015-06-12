@@ -174,3 +174,48 @@ nav{
 #aqua-palette{
   background-color: #89C1B9;
 }
+
+form{
+  font-family:'montserrat', sans serif;
+  letter-spacing: 0.15em;
+  text-transform:uppercase;
+  background-color:transparent;
+  padding:1em;
+  color:#fff;
+
+}
+
+#form-name, #form-phone, #form-car, #form-comment {
+  font-family:'open sans', sans-serif;
+  color:#fff;
+  background:transparent;
+  display:inline-block;
+  border-style:solid;
+  border-color:#000;
+  border-width: 2px;
+  padding:0.5em;
+  margin-top:0.5em;
+  margin-bottom:2em;
+  width:50em;
+  display:block;
+
+}
+
+
+input{
+border:none;
+
+}
+
+textarea{
+  margin: 0px 22px 0px 0px; 
+  width: 550px; 
+  height: 121px;
+
+
+}/*not sure how to size this using relative measurement.*/
+
+
+
+
+

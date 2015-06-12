@@ -96,6 +96,31 @@
 
 <!--Form Elements-->
     <section id="forms">
+      <h1>Forms</h1>
+      <h3>CSS Selector</h3>
+      'form' 'label' 'input' 'textarea' 'form-name' 'form-phone' 'form-car' 'form-comment'
+      <h3>Sample Code</h3>
+      <code>&lt;label for="form-name"&gt;Name:&lt;/label></code>
+      <code>&lt;input type="text" id="form-name" placeholder="Jane Doe"&gt;</code>
+
+      <h3>Rendered Code</h3>
+      <form method="post" action="#">
+        <label for="form-name">Name:</label>
+        <input type="text" id="form-name" placeholder="Jane Doe">
+
+        <label for="form-phone">Phone #:</label>
+        <input type="text" id="form-phone" placeholder="777.777.7777">
+
+        <label for="form-car">Car Model, Year, Make</label>
+        <input type="text" id="form-car" placeholder="What kind of car do you have?">
+
+        <label for="form-comment">The Issue:</label>
+        <textarea id="form-comment" placeholder="Please place comment here"></textarea>
+
+        <input type="submit" value="Submit" class="button">
+
+    </form>
+
     </section>
 
 <!--Key Groupings-->
