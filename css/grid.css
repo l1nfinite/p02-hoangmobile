@@ -1,7 +1,32 @@
+*, *::before, *::after {
+  -webkit-box-sixing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*this is created so we can close the grid. It's basically ending the row so we can make another row below it; this is needed fro EVERY row, EVERY time we use any of the other classes*/
+.grid::after{
+  /*when a grid closes*/
+  content:"";
+  display: block;
+  clear: both;
+}
+
+
+/*this is a class i'm creating that's saying the div will take up 4 out of 12 total columns*/
 .col-4of12{
   width: 33%;
+  /*4/12 is about 33% so 1/3*/
 }
+
+/*based on the 12 column grid we can create different proportions for example: */
 
 .col-6of12{
   width: 50%;
 }
+
+.col-3of12{
+  width: 25%;
+}
+
+/*and so forth, I created a section id="test" to show how to use it in the html, I wasn't sure where you were going to put the panels plus it'll be good practice to do it yourself*/

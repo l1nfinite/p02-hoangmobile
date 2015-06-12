@@ -5,9 +5,11 @@
     <meta charset="utf-8">
     <title>Hoang Mobile Styleguide</title>
     <link href="css/main.css" rel="stylesheet">
+    <!-- css for the grid -->
+    <link href="css/grid.css" rel="stylesheet">
 
 
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' 
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700'
     rel='stylesheet' type='text/css'>
 
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -51,7 +53,7 @@
 <!--Text Elements-->
     <section id="text">
       <h1 class="section-heading">Text Elements</h1>
-      
+
       <h3 class="section-heading">CSS Selector</h3>
       <p>h1, h2, h3, p, a, ul, li</p>
       <h3 class="section-heading">Sample Code</h3>
@@ -78,7 +80,7 @@
       <li>This is a list.</li>
       </ul>
 
-      
+
     </section>
 
 <!--Buttons-->
@@ -132,6 +134,21 @@
       <h3 class="section-heading">CSS selector</h3>
       <h3 class="section-heading">Sample Code</h3>
       <h3 class="section-heading">Rendered Code</h3>
+    </section>
+
+    <section id="test" class="grid">
+      <!--first we need to create a div with the class .grid so we can close it after we're done with it-->
+        <!--within the grid div we create the columns we want to work with-->
+        <div class="col-4of12">
+          <p>This is Column 1</p>
+        </div>
+        <div class="col-4of12">
+          <p>This is Column 2</p>
+        </div>
+        <div class="col-4of12">
+          <p>This is Column 3</p>
+        </div>
+        <!--the col- classes can be mixed and arranged as long as the total adds to 12, so in this cas 4+4+4=12-->
     </section>
 
   </body>
