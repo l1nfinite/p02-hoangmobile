@@ -16,7 +16,7 @@ body{
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.1em;
-  border: 3px solid;
+  border: 0.1em solid;
   padding: 0.5em;
   font-size: 1.5em;
   float: left;
@@ -190,6 +190,26 @@ nav{
   display: inline-block;
 }
 
+a.menu{
+  font-family:'Montserrat', serif;
+  text-transform: uppercase;
+  color: white;
+  border: 2px solid white;
+  border-radius: 0.5em;
+  font-size: 0.75em;
+  position: relative;
+  float: right;
+  top: 2.5em;
+  padding: 0.3em 0.5em;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+a.menu:hover{
+  color: #89C1B9;
+  border-color: #89C1B9;
+}
+
 #colour{
   margin-top: 100px;
   color: white;
@@ -297,5 +317,4 @@ margin-bottom:-50em;
   float:right;
   margin-top:-1.25em;
   text-align:center;
-
 }
