@@ -64,4 +64,14 @@
   .button-nav{
     top:0;
   }
+
+  
+}
+
+
+@media(max-width: 1000px){
+  .col-4of12{
+    width:100%;
+  }
+
 }
