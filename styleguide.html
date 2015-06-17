@@ -29,13 +29,14 @@
         <a href="#buttons" class="button-nav">Button</a>
         <a href="#forms" class="button-nav">Forms</a>
         <a href="#keyGroups" class="button-nav">Key Groupings</a>
+        <a href="img/site-map.jpg" class="button-nav">Site-Map</a>
       </nav>
     </div>
 
 
 <!--Colour-->
     <section id="colour">
-      <h1 class="section-heading">Colour Palette</h1>
+      <h2 class="section-heading">Colour Palette</h2>
       <div id="blue-palette" class="colour-box">
         <p>#171D61</p>
       </div>
@@ -52,7 +53,7 @@
 
 <!--Text Elements-->
     <section id="text">
-      <h1 class="section-heading">Text Elements</h1>
+      <h2 class="section-heading">Text Elements</h2>
 
       <h3 class="section-heading">CSS Selector</h3>
       <p>h1, h2, h3, p, a, ul, li</p>
@@ -68,8 +69,8 @@
 
       <h3 class="section-heading">Rendered Element</h3>
 
-      <h1>Heading Level 1</h1>
-      <h2>Heading Level 2</h2>
+      <h1>Heading Level 1</h1><br/>
+      <h2>Heading Level 2</h2><br/>
       <h3>Heading Level 3</h3>
       <p>This is a paragraph. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
       <a href="#" class="link-style">This is a link.</a>
@@ -85,22 +86,24 @@
 
 <!--Buttons-->
     <section id="buttons">
-      <h1 class="section-heading">Buttons</h1>
+      <h2 class="section-heading">Buttons</h2>
       <h3 class="section-heading">CSS Selector</h3>
       <p>.button-nav, .button</p>
+      <code> &lt;a href="#" class="button">Button&lt;/a&gt; </code>
       <h3 class="section-heading">Sample Code</h3>
       <code> &lt;a href="#" class="button-nav"&gt;Navigation Button&lt;/a&gt;</code>
-      <code> &lt;a href="#" class="button">Button&lt;/a&gt; </code>
       <h3 class="section-heading">Rendered Element</h3>
+      <a href="#" class="button">Button</a>
+      <br>
       <div class="sample-nav">
         <a href="#" class="button-nav">Navigation Button</a>
       </div>
-      <a href="#" class="button">Button</a>
+
     </section>
 
 <!--Form Elements-->
     <section id="forms">
-      <h1 class="section-heading">Forms</h1>
+      <h2 class="section-heading">Forms</h2>
       <h3 class="section-heading">CSS Selector</h3>
       'form' 'label' 'input' 'textarea' 'form-name' 'form-phone' 'form-car' 'form-comment'
       <h3 class="section-heading">Sample Code</h3>
@@ -130,25 +133,67 @@
 
 <!--Key Groupings-->
     <section id="keyGroups">
-      <h1 class="section-heading">Key Groupings</h1>
+      <h2 class="section-heading">Key Groupings</h2>
       <h3 class="section-heading">CSS selector</h3>
+      <p>'.image-placeholder' '.padding-secondaryService' '#secondary-service .button' '.header-wrap' '.header-wrap h2'</p>
       <h3 class="section-heading">Sample Code</h3>
-      <h3 class="section-heading">Rendered Code</h3>
-    </section>
+        <code>
+          &lt;div class="col-4of12"&gt;<br/>
+            &lt;h3>Engine Repair&lt;/h3&gt;<br/>
+              &lt;div class="image-placeholder"&gt;<br/>
+                image<br/>
+              &lt;/div&gt;<br/>
+              &lt;div class="padding-secondaryService"><br/>
+                &lt;p&gt;Aenean lacinia bibendum nulla sed <br/>consectetur. Donec ullamcorper nulla non metus <br/>auctor fringilla. Cras justo odio, dapibus <br/>ac facilisis in, egestas eget&lt;/p&gt;<br/>
+              &lt;/div&gt;<br/>
 
-    <section id="test" class="grid">
-      <!--first we need to create a div with the class .grid so we can close it after we're done with it-->
-        <!--within the grid div we create the columns we want to work with-->
-        <div class="col-4of12">
-          <p>This is Column 1</p>
-        </div>
-        <div class="col-4of12">
-          <p>This is Column 2</p>
-        </div>
-        <div class="col-4of12">
-          <p>This is Column 3</p>
-        </div>
-        <!--the col- classes can be mixed and arranged as long as the total adds to 12, so in this cas 4+4+4=12-->
+            &lt;a href="#" class="button"&gt;Learn more&lt;/a&gt;<br/>
+          </code>
+
+      <h3 class="section-heading">Rendered Code</h3>
+      <div class="header-wrap">
+        <h1>we specialize in </h1><br/>
+        <h2>A/C & radiators</h2>
+      </div>
+
+      <section id="secondary-service" class="grid">
+        <!--first we need to create a div with the class .grid so we can close it after we're done with it-->
+          <!--within the grid div we create the columns we want to work with-->
+          <div class="col-4of12">
+            <h3>Engine Repair</h3>
+            <div class="image-placeholder">
+              image
+            </div>
+
+            <div class="padding-secondaryService">
+              <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget</p>
+            </div><!--padding-secondaryService<-->
+            <a href="#" class="button">Learn more</a>
+
+          </div>
+          <div class="col-4of12">
+          <h3>Engine Repair</h3>
+            <div class="image-placeholder">
+              image
+            </div>
+            <div class="padding-secondaryService">
+              <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget</p>
+            </div><!--padding-secondaryService<-->
+            <a href="#" class="button">Learn more</a>
+          </div>
+          <div class="col-4of12">
+          <h3>Engine Repair</h3>
+            <div class="image-placeholder">
+              image
+            </div>
+            <div class="padding-secondaryService">
+              <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget</p>
+            </div><!--padding-secondaryService<-->
+            <a href="#" class="button">Learn more</a>
+          </div>
+          <!--the col- classes can be mixed and arranged as long as the total adds to 12, so in this cas 4+4+4=12-->
+      </section>
+
     </section>
 
   </body>

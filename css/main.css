@@ -48,7 +48,7 @@ h2{
   font-style:italic;
   letter-spacing:0.02em;
   display: inline-block;
-  
+
 }
 
 h3{
@@ -58,7 +58,7 @@ h3{
   font-weight:400;
   text-transform:uppercase;
   letter-spacing:0.02em;
-  display:block;
+  display:inline-block;
   font-weight:700;
 }
 
@@ -106,27 +106,27 @@ section code {
 }
 
 .section-heading{
-  color:#000;
   background-color:transparent;
-  font-family:'Montserrat', sans-serif;
-  font-weight: 700;
-  text-transform: capitalize;
-  letter-spacing: 0;
   display:block;
-  margin-bottom:0;
+  margin-bottom:1em;
   padding:0;
 }
 
-h1.section-heading{
+h2.section-heading{
+  color:#89C1B9;
+  font-family:'Montserrat', sans-serif;
   padding-bottom:0;
-
-
+  font-size: 1.5em;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0;
 }
 
 h3.section-heading{
   font-family:'lora', serif;
   font-style:italic;
-  color:#04102d;
+  color:#C1272D;
+  text-transform: capitalize;
 }
 
 
@@ -184,9 +184,10 @@ nav{
 }
 
 .sample-nav{
-  width: 30%;
+  float: none;
   height: 2em;
-  clear: both;
+  padding: 0;
+  display: inline-block;
 }
 
 #colour{
@@ -252,8 +253,8 @@ border:none;
 }
 
 textarea{
-  margin: 0px 22px 0px 0px; 
-  width: 550px; 
+  margin: 0px 22px 0px 0px;
+  width: 550px;
   height: 121px;
 
 }/*not sure how to size this using relative measurement.*/
@@ -264,6 +265,37 @@ margin-bottom:-50em;
 
 }
 
+.image-placeholder{
+  border: 1px solid #ccc;
+  width:300px;
+  height:150px;
+  display:inline-block;
+  padding:3.5em; /*wondering if there's a better way to center text in an div box rather than
+  guessing the #em in the padding*/
+  position:relative;
 
+}
 
+.padding-secondaryService{
+  padding-left:1.7em;
+  padding-right:1.7em;
 
+}
+
+#secondary-service .button {
+  margin-top:1.5em;
+  display:inline-block;
+
+}
+
+.header-wrap{
+  clear:right;
+  display:inline-block;
+}
+
+.header-wrap h2 {
+  float:right;
+  margin-top:-1.25em;
+  text-align:center;
+
+}
