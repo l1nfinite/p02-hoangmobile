@@ -29,6 +29,11 @@
   width: 25%;
 }
 
+.box-item-nav{
+  display: inline-block;
+  margin: 0.5em;
+}
+
 /*and so forth, I created a section id="test" to show how to use it in the html, I wasn't sure where you were going to put the panels plus it'll be good practice to do it yourself*/
 
 [class^='col-']{
@@ -38,21 +43,14 @@
   text-align: center;
 }
 
-@media (max-width: 933px){
+@media (max-width: 1030px){
   nav{
     clear: both;
     background-color: #C1272D;
     margin: 0;
     width: 100%;
-    position: relative;
-    top: 0;
-  }
-
-  .button-nav{
-  }
-
-  .box-item-nav{
-    display: inline-block;
-    margin: 0.5em;
+    position: absolute;
+    top: 5em;
+    padding-left: 2em;
   }
 }
