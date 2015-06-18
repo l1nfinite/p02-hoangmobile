@@ -162,6 +162,8 @@ h3.section-heading{
 
 nav{
   margin-right: 2em;
+  float: right;
+  margin-top: 2em;
 }
 
 .button-nav{
@@ -173,8 +175,7 @@ nav{
   font-size: 0.8em;
   letter-spacing: 0.25em;
   margin: 0;
-  float: right;
-  margin-top: 3em;
+
 }
 
 .button-nav:hover{
