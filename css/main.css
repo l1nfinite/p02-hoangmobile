@@ -291,7 +291,7 @@ margin-bottom:-50em;
 
 .image-placeholder{
   border: 1px solid #ccc;
-  width:300px;
+  width:280px;
   height:150px;
   display:inline-block;
   padding:3.5em; /*wondering if there's a better way to center text in an div box rather than
@@ -303,8 +303,9 @@ margin-bottom:-50em;
 .padding-secondaryService{
   padding-left:1.7em;
   padding-right:1.7em;
-  margin-right:3em;
-  margin-left:3em;
+  margin-right:3.5em;
+  margin-left:3.5em;
+  text-align:left;
 
 }
 
