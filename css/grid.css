@@ -37,3 +37,22 @@
   padding: 0;
   text-align: center;
 }
+
+@media (max-width: 933px){
+  nav{
+    clear: both;
+    background-color: #C1272D;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    top: 0;
+  }
+
+  .button-nav{
+  }
+
+  .box-item-nav{
+    display: inline-block;
+    margin: 0.5em;
+  }
+}
