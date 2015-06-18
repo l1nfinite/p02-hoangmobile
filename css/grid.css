@@ -73,5 +73,15 @@
   .col-4of12{
     width:100%;
   }
+  
+  #form-name, #form-phone, #form-car, #form-comment {
+    width:100%;
+  }
+
+  .dropdown{
+    display:block;
+  }
+
+
 
 }
