@@ -297,6 +297,7 @@ margin-bottom:-50em;
   padding:3.5em; /*wondering if there's a better way to center text in an div box rather than
   guessing the #em in the padding*/
   position:relative;
+  margin:1.5em;
 
 }
 
