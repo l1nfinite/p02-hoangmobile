@@ -293,9 +293,12 @@ select{
   color:white;
   font-family:'open-sans', sans-serif;
   margin:1.5em;
+  margin-left:0.1em; /*top right bottom left   margin:1.5em;*/
+  height:2em;
 
 
 }
+
 
 h1.h1-keygroups{
 margin-bottom:-50em;
