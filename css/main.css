@@ -4,9 +4,9 @@
 
 body{
   font-family: 'open sans' sans-serif;
-  margin: 2em;
   background-color: #171D61;
   color:#fff;
+  padding-top:5em;
 }
 
 
@@ -36,8 +36,15 @@ h1{
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  display:inline-block;
+  display:inline-block; /*does this need to be 'block' instead?*/
 }
+
+h1.text-center{
+  text-align:center;
+
+
+}
+
 
 h2{
   font-size: 1.5em;
