@@ -44,7 +44,7 @@
 }
 
 
-@media (max-width: 1030px){
+@media (max-width: 768px){
   nav{
     clear: both;
     background-color: #C1272D;
@@ -82,7 +82,7 @@
     top:0;
   }
 
-  
+
 }
 
 
@@ -90,7 +90,7 @@
   .col-4of12{
     width:100%;
   }
-  
+
   #form-name, #form-phone, #form-car, #form-comment {
     width:100%;
   }
@@ -109,4 +109,3 @@
 
 
 }
-
