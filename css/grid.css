@@ -56,12 +56,11 @@
   }
 }
 
-.box{
+.box, .feature-buttons{
+  display: -webkit-flex;
+  display: -ms-flex;
   display: flex;
   flex-wrap: wrap;
-  align-items: stretch;
-  position: absolute;
-  right: 0;
 }
 
 .box-item-nav{
