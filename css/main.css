@@ -41,6 +41,9 @@ h1{
 
 h1.text-center{
   text-align:center;
+  display:block;
+  padding:0;
+  margin:0;
 
 
 }
@@ -386,7 +389,7 @@ margin-bottom:-50em;
 }
 
 .feature{
-  margin-left: -2em;
+  margin: 0;
   position: absolute;
   height: 30em;
   width: 100%;
