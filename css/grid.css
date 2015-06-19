@@ -44,7 +44,7 @@
 }
 
 
-@media (max-width: 1030px){
+@media (max-width: 768px){
   nav{
     clear: both;
     background-color: #C1272D;
@@ -53,6 +53,16 @@
     position: absolute;
     top: 5em;
     padding-left: 2em;
+  }
+
+  body{
+    padding-top: 8em;
+  }
+}
+
+@media (max-width: 448px){
+  body{
+    padding-top: 10em;
   }
 }
 
