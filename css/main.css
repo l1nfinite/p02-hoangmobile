@@ -23,6 +23,8 @@ body{
   margin-top: 0.5em;
   margin-left: 2em;
   background-color:transparent;
+  float: left;
+  z-index: 5;
 }
 
 h1{
@@ -58,7 +60,7 @@ h3{
   font-weight:400;
   text-transform:uppercase;
   letter-spacing:0.02em;
-  display:inline-block;
+  display:block;
   font-weight:700;
 }
 
@@ -149,8 +151,8 @@ h3.section-heading{
   color: #C1272D;
   background-color: transparent;
   font-size: 1.15rem;
-  padding: 0.25em 0.45em;
-  margin: 0.25em;
+  padding: 0.5em;
+  margin: 1em;
   font-weight: 700;
   outline:solid;
 }
@@ -167,14 +169,18 @@ nav{
 }
 
 .button-nav{
+  display: inline-block;
   color: white;
+  background-color: #C1272D;
   font-family: 'Lora', 'serif';
   font-style: italic;
   padding: 0 1em;
   text-decoration: none;
   font-size: 0.8em;
   letter-spacing: 0.25em;
-  margin: 0;
+  float: right;
+  position: relative;
+
 
 }
 
@@ -189,6 +195,26 @@ nav{
   height: 2em;
   padding: 0;
   display: inline-block;
+}
+
+#menu{
+  font-family:'Montserrat', serif;
+  text-transform: uppercase;
+  color: white;
+  border: 2px solid white;
+  border-radius: 0.5em;
+  font-size: 0.75em;
+  position: relative;
+  float: right;
+  top: 2.5em;
+  padding: 0.3em 0.5em;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+#menu:hover{
+  color: #89C1B9;
+  border-color: #89C1B9;
 }
 
 #colour{
@@ -221,13 +247,15 @@ nav{
   background-color: #89C1B9;
 }
 
+/*beginning of form styling*/
+
 form{
   font-family:'montserrat', sans serif;
   letter-spacing: 0.15em;
   text-transform:uppercase;
   background-color:transparent;
   padding:1em;
-  color:#fff;
+  color:#89C1B9;
 
 }
 
@@ -237,8 +265,8 @@ form{
   background:transparent;
   display:inline-block;
   border-style:solid;
-  border-color:#000;
-  border-width: 2px;
+  border-color:#ccc;
+  border-width: 0.1em;
   padding:0.5em;
   margin-top:0.5em;
   margin-bottom:2em;
@@ -247,9 +275,13 @@ form{
 
 }
 
+label{
+  display:block;
+}
+
 
 input{
-border:none;
+  border:none;
 
 }
 
@@ -260,6 +292,37 @@ textarea{
 
 }/*not sure how to size this using relative measurement.*/
 
+select{
+  display:inline-block;
+  background-color:transparent;
+  color:white;
+  font-family:'open-sans', sans-serif;
+  margin:1.5em;
+  margin-left:0.1em; /*top right bottom left   margin:1.5em;*/
+  height:2em;
+
+
+}
+
+.check-box{
+  margin-top:1em;
+  margin-bottom:1em;
+
+}
+
+.check-box label{
+  font-family:'open-sans', sans-serif;
+  text-transform:capitalize;
+  display:inline;
+  letter-spacing:0;
+  color:#fff;
+  margin-left:0;
+  margin-right:0.5em;
+
+}
+
+/*end of form styling*/
+
 
 h1.h1-keygroups{
 margin-bottom:-50em;
@@ -268,18 +331,26 @@ margin-bottom:-50em;
 
 .image-placeholder{
   border: 1px solid #ccc;
-  width:300px;
+  width:280px;
   height:150px;
   display:inline-block;
   padding:3.5em; /*wondering if there's a better way to center text in an div box rather than
   guessing the #em in the padding*/
   position:relative;
+  margin:1.5em;
 
 }
 
 .padding-secondaryService{
   padding-left:1.7em;
   padding-right:1.7em;
+  margin-right:3.5em;
+  margin-left:3.5em;
+  text-align:left;
+}
+
+.padding-secondaryService h3{
+  text-align:center;
 
 }
 
@@ -292,11 +363,47 @@ margin-bottom:-50em;
 .header-wrap{
   clear:right;
   display:inline-block;
+  /*position: relative;
+  top: 5em;
+  left: 15em;*/
 }
 
 .header-wrap h2 {
   float:right;
-  margin-top:-1.25em;
-  text-align:center;
-
+  margin-top:0;
+  text-align: center;
 }
+
+.header-wrap h1{
+  margin-bottom: 0;
+}
+
+.feature{
+  margin-left: -2em;
+  position: absolute;
+  height: 30em;
+  width: 100%;
+  border: 1px solid white;
+  background-color: white;
+}
+
+.feature-header-wrap{
+  margin: 0;
+  text-align: right;
+  position: relative;
+  right: 37%;
+  top: 50%;
+  vertical-align: middle;
+}
+
+.feature-header-wrap h1, h2{
+  margin: 0 auto;
+}
+
+.feature-buttons{
+  margin-top: 2em;
+  position: absolute;
+  width: 100%;
+}
+
+
