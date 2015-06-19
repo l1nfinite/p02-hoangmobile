@@ -54,6 +54,16 @@
     top: 5em;
     padding-left: 2em;
   }
+
+  body{
+    padding-top: 8em;
+  }
+}
+
+@media (max-width: 448px){
+  body{
+    padding-top: 10em;
+  }
 }
 
 .box, .feature-buttons{
