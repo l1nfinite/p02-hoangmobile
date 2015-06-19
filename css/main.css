@@ -244,13 +244,15 @@ nav{
   background-color: #89C1B9;
 }
 
+/*beginning of form styling*/
+
 form{
   font-family:'montserrat', sans serif;
   letter-spacing: 0.15em;
   text-transform:uppercase;
   background-color:transparent;
   padding:1em;
-  color:#fff;
+  color:#89C1B9;
 
 }
 
@@ -298,6 +300,25 @@ select{
 
 
 }
+
+.check-box{
+  margin-top:1em;
+  margin-bottom:1em;
+
+}
+
+.check-box label{
+  font-family:'open-sans', sans-serif;
+  text-transform:capitalize;
+  display:inline;
+  letter-spacing:0;
+  color:#fff;
+  margin-left:0;
+  margin-right:0.5em;
+
+}
+
+/*end of form styling*/
 
 
 h1.h1-keygroups{
