@@ -404,6 +404,7 @@ margin-bottom:-50em;
   margin-top: 2em;
   position: absolute;
   width: 100%;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
