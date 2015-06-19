@@ -292,11 +292,25 @@ margin-bottom:-50em;
 .header-wrap{
   clear:right;
   display:inline-block;
+  /*position: relative;
+  top: 5em;
+  left: 15em;*/
 }
 
 .header-wrap h2 {
   float:right;
-  margin-top:-1.25em;
+  margin-top:-1.35em;
   text-align:center;
+}
 
+.feature{
+  height: 20em;
+  width: 100%;
+  top: 0;
+  border: 1px solid white;
+}
+
+#feature .button{
+  position: relative;
+  top: 1em;
 }
