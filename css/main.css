@@ -291,12 +291,45 @@ margin-bottom:-50em;
 
 .header-wrap{
   clear:right;
-  display:inline-block;
+  display: block;
+  /*position: relative;
+  top: 5em;
+  left: 15em;*/
 }
 
 .header-wrap h2 {
-  float:right;
-  margin-top:-1.25em;
-  text-align:center;
+  margin-top:-1.35em;
+  text-align: center;
+}
 
+.header-wrap h1{
+  margin-bottom: 0;
+}
+
+.feature{
+  margin-left: -2em;
+  position: absolute;
+  height: 30em;
+  width: 100%;
+  border: 1px solid white;
+  background-color: white;
+}
+
+.feature-header-wrap{
+  margin: 0;
+  text-align: right;
+  position: relative;
+  right: 37%;
+  top: 50%;
+  vertical-align: middle;
+}
+
+.feature-header-wrap h1, h2{
+  margin: 0 auto;
+}
+
+.feature-buttons{
+  margin-top: 2em;
+  position: absolute;
+  width: 100%;
 }
