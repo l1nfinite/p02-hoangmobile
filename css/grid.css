@@ -84,6 +84,11 @@
     height:2.5em;
   }
 
+  .check-box label{
+    display:block;
+    margin-top:1em;
+  }
+
 
 
 }
