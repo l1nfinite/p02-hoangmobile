@@ -389,21 +389,26 @@ margin-bottom:-50em;
 
 .feature-header-wrap{
   margin: 0;
-  text-align: right;
-  position: relative;
-  right: 37%;
-  top: 50%;
-  vertical-align: middle;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 30%;
 }
 
 .feature-header-wrap h1, h2{
   margin: 0 auto;
+  clear: both;
 }
 
 .feature-buttons{
   margin-top: 2em;
   position: absolute;
   width: 100%;
+  justify-content: center;
 }
 
-
+.box{
+  align-items: stretch;
+  position: absolute;
+  right: 0;
+}
