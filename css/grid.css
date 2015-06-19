@@ -73,5 +73,22 @@
   .col-4of12{
     width:100%;
   }
+  
+  #form-name, #form-phone, #form-car, #form-comment {
+    width:100%;
+  }
+
+  .dropdown{
+    display:block;
+    width:100%;
+    height:2.5em;
+  }
+
+  .check-box label{
+    display:block;
+    margin-top:1em;
+  }
+
+
 
 }

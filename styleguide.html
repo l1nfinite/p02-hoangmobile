@@ -115,20 +115,21 @@
 
 <!--Form Elements-->
     <section id="forms">
+    
       <h2 class="section-heading">Forms</h2>
       <h3 class="section-heading">CSS Selector</h3>
       'form' 'label' 'input' 'textarea' 'form-name' 'form-phone' 'form-car' 'form-comment'
       <h3 class="section-heading">Sample Code</h3>
       <code>&lt;label for="form-name"&gt;Name:&lt;/label></code>
       <code>&lt;input type="text" id="form-name" placeholder="Jane Doe"&gt;</code>
-
+	<!-- old form:
       <h3 class="section-heading">Rendered Code</h3>
       <form method="post" action="#">
         <label for="form-name">Name:</label>
         <input type="text" id="form-name" placeholder="Jane Doe">
 
         <label for="form-phone">Phone #:</label>
-        <input type="text" id="form-phone" placeholder="777.777.7777">
+        <input type="number" id="form-phone" placeholder="777.777.7777">
 
         <label for="form-car">Car Model, Year, Make</label>
         <input type="text" id="form-car" placeholder="What kind of car do you have?">
@@ -137,8 +138,67 @@
         <textarea id="form-comment" placeholder="Please place comment here"></textarea>
 
         <input type="submit" value="Submit" class="button">
+        </form>-->
 
-    </form>
+       
+        <form>
+        	<label for="form-name">Name:</label>
+        	<input type="text" id="form-name" placeholder="Jane Doe">
+
+        	<label for="form-phone">Phone #:</label>
+        	<input type="number" id="form-phone" placeholder="777.777.7777">
+
+
+        	
+	        <label for="form-car">What kind of car do you have?</label>
+			    <select name="car-make" class="dropdown">
+			      <option>Make</option>
+			      <option>I don't know</option>
+				  <option>Audi</option>
+				  <option>Audi</option>
+				  <option>Audi</option>
+				</select>
+
+				<select name="car-year" class="dropdown">
+					<option>Year</option>
+				    <option>I don't know</option>
+					<option>2015</option>
+					<option>2015</option>
+					<option>2015</option>
+				</select>
+
+				<select name="car-model" class="dropdown">
+					<option>Model</option>
+				    <option>I don't know</option>
+					<option>A3</option>
+					<option>A3</option>
+					<option>A3</option>
+				</select>
+
+
+        	<label for="form-comment">The Issue:</label>
+
+        	<div class="check-box">
+	        	<label>
+	        		<input type="checkbox" name="service-type" value="engine-repair" checked> Engine Repair
+	        	</label>
+
+	        	<label>
+					<input type="checkbox" name="service-type" value="vehicle-inspection"> Vehicle Inspection
+				</label>
+
+				<label>
+					<input type="checkbox" name="service-type" value="scheduled-maintenance"> Scheduled Maintenance
+				</label>
+			</div>
+
+       		<textarea id="form-comment" placeholder="Please place comment here"></textarea>
+
+       		<input type="submit" value="Get Estimate" class="button">
+	       	
+
+
+    	</form>
 
     </section>
 
