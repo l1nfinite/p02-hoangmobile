@@ -1,0 +1,55 @@
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+
+body{
+
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+.subtitle{
+
+}
+
+p{
+
+}
+
+nav{
+
+}
+
+a{
+
+}
+
+a:hover, a:active, a:focus{
+
+}
+
+.buttons{
+
+}
+
+.button:hover, .button:active, .button:focus{
+
+}
+
+/*Feature*/
+
+
+/*FORM*/
+
+
+/*PANELS-padding, etc.*/
