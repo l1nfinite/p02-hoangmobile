@@ -3,15 +3,29 @@
 }
 
 body{
+  background-color: #171D61;
+  color:#fff;
+}
 
+h1, h2{
+  font-family:'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 h1{
-
+  font-size: 2em;
+  letter-spacing: 0.05em;
+  background-color:#89c1b9;
+  padding: 0.1em 0.3em;
+  display:inline-block;
 }
 
 h2{
-
+  font-size: 1.17em;
+  color: #89c1b9;
+  letter-spacing: 0.02em;
 }
 
 h3{
@@ -19,7 +33,17 @@ h3{
 }
 
 .subtitle{
-
+  margin: 0;
+  font-family: 'lora', serif;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: white;
+  background-color: #89C1B9;
+  text-transform: none;
+  padding: 0.1em 0.3em;
+  display:inline-block;
 }
 
 p{
@@ -31,11 +55,16 @@ nav{
 }
 
 a{
-
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 0.35em solid #C1272D;
 }
 
 a:hover, a:active, a:focus{
-
+  background-color:#C1272D;
+  text-decoration: none;
+  padding:0.2em;
+  border-bottom:none;
 }
 
 .buttons{
