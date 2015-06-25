@@ -5,6 +5,7 @@ body{
   font-family: 'open sans', sans-serif;
   background-color: #171D61;
   color:#fff;
+  padding: 1em;
 }
 
 h1, h2{
@@ -180,6 +181,42 @@ nav{
 
 
 /*FORM*/
+form{
+}
+
+#form-name, #form-phone, #form-car, #form-comment {
+  color: white;
+  background: transparent;
+  border: 0.1em solid #ccc;
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+
+label{
+}
+
+
+input{
+  border: none;
+}
+
+textarea{
+  width: 34em;
+  height: 7.5em;
+}
+
+select{
+  background: transparent;
+  color: white;
+  margin: 1.5em 1.5em 1.5em 0.1em;
+  height: 2em;
+}
+
+.check-box{
+}
+
+.check-box label{
+}
 
 
 /*PANELS-padding, etc.*/
