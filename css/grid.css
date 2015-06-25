@@ -95,7 +95,7 @@
 }
 
 
-@media(max-width: 62.5em){
+@media (max-width: 62.5em){
   .col-4of12{
     width:100%;
   }
@@ -105,10 +105,9 @@
     padding-bottom: 3em;
     border-bottom: 1px solid #89C1B9;
   }
+}
 
-  #form-name, #form-phone, #form-car, #form-comment {
-    width:100%;
-  }
+@media (max-width: 37.5em){
 
   .dropdown{
     display:block;
@@ -120,10 +119,8 @@
     display:block;
     margin-top:1em;
   }
-
-
-
 }
+
 
 @media (max-width: 39em){
   .service{
