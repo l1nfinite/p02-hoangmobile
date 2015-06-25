@@ -48,9 +48,13 @@ h3{
 }
 
 p{
+  font-family:'open sans', sans-serif;
+  color: white;
+
 }
 
 nav{
+  float:right;
 
 }
 
