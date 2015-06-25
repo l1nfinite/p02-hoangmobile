@@ -95,9 +95,15 @@
 }
 
 
-@media(max-width: 1000px){ /*arbitrary # right now*/
+@media(max-width: 62.5em){
   .col-4of12{
     width:100%;
+  }
+
+  .service{
+    margin: 0 7em;
+    padding-bottom: 3em;
+    border-bottom: 1px solid #89C1B9;
   }
 
   #form-name, #form-phone, #form-car, #form-comment {
@@ -117,4 +123,10 @@
 
 
 
+}
+
+@media (max-width: 39em){
+  .service{
+    margin: 0 1.5em;
+  }
 }

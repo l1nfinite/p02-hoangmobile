@@ -3,6 +3,7 @@
 }
 
 body{
+  font-family: 'open sans', sans-serif;
   background-color: #171D61;
   color:#fff;
 }
@@ -47,7 +48,6 @@ h3{
 }
 
 p{
-
 }
 
 nav{
@@ -82,3 +82,19 @@ a:hover, a:active, a:focus{
 
 
 /*PANELS-padding, etc.*/
+.image-placeholder{
+  border: 1px solid #ccc;
+  width: 100%;
+  height: auto;
+  margin-top: 3em;
+}
+
+.service{
+  padding: 0 1em;
+  margin: 0 1.5em;
+  display: inline-block;
+}
+
+.service p{
+  text-align: left;
+}
