@@ -71,11 +71,27 @@ a:hover, a:active, a:focus{
   border-bottom:none;
 }
 
-.buttons{
+.button{
+  letter-spacing: 2px;
+  font-family:'Montserrat', serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #C1272D;
+  background-color: transparent;
+  font-size: 1.15rem;
+  padding: 0.2em;
+  margin: 1em;
+  font-weight: 700;
+  outline:solid;
+  border-bottom:none;
+  display:inline-block;
 
 }
 
 .button:hover, .button:active, .button:focus{
+  color: #89C1B9;
+  font-family:'Montserrat', serif;
+  background-color:transparent;
 
 }
 
