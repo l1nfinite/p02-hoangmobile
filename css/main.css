@@ -12,6 +12,7 @@ h1, h2{
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 0;
+  display:block;
 }
 
 h1{
@@ -146,13 +147,14 @@ nav{
 
 .img-header{
 
-  background-image:url(../img/radiator.jpg);
+  background-image:url(../img/fan2-loweropacity.png);
   height:765px;
   margin:0;
   background-repeat:no-repeat;
   background-position: 0 6em; 
-  opacity:0.7;
+  /*opacity:0.5;*/
   background-size:2149px 1433px;
+  padding-top:15em; /*padding for feature element text*/
 }
 
 
@@ -175,8 +177,23 @@ nav{
 
 }*/
 
-
 /*Feature*/
+
+.feature-wrap {
+  z-index:2;
+  position:relative;
+  margin:0 auto;
+  width:50%;
+
+}
+
+.feature-buttons > .button{
+  margin-top:2em;
+
+}
+
+
+
 
 
 /*FORM*/
