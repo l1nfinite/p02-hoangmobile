@@ -96,10 +96,11 @@ a:hover, a:active, a:focus{
 .head{
   background-color:#C1272D;
   width: 100%;
-  /*height:5em;*/
+  height:5em;
   margin:0;
   position:relative;
   z-index:6;
+  background: transparent;
 }
 
 .logo{
