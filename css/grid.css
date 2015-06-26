@@ -69,7 +69,7 @@
   }
 
   .logo{
-    
+
     position:absolute;
     margin-left:auto;
     margin-right:auto;
@@ -114,9 +114,13 @@
   }
 
   .service{
-    margin: 0 7em;
+    margin: 0 4em;
     padding-bottom: 3em;
     border-bottom: 1px solid #89C1B9;
+  }
+
+  img{
+    max-width: 80%;
   }
 }
 
@@ -135,8 +139,12 @@
 }
 
 
-@media (max-width: 39em){
+@media (max-width: 35em){
   .service{
-    margin: 0 1.5em;
+    margin: 0 2em;
+  }
+
+  img{
+    max-width: 100%;
   }
 }

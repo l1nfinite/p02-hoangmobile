@@ -222,10 +222,13 @@ select{
 
 /*PANELS-padding, etc.*/
 .image-placeholder{
-  border: 1px solid #ccc;
-  width: 100%;
-  height: auto;
   margin-top: 3em;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  opacity: 0.85;
 }
 
 .service{
