@@ -30,7 +30,10 @@ h2{
 }
 
 h3{
-
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 2em;
 }
 
 .subtitle{
@@ -97,8 +100,10 @@ a:hover, a:active, a:focus{
   background-color:#C1272D;
   width: 100%;
   height:6em;
-  background: transparent;
   margin:0;
+  position:relative;
+  z-index:6;
+  background: transparent;
 }
 
 .logo{
@@ -111,7 +116,10 @@ a:hover, a:active, a:focus{
   font-size: 1.5em;
   float: left;
   margin: 0.5em;
-  background-color: transparent;
+  background-color:transparent;
+  float: left;
+  z-index: 5;
+  position:relative;
 }
 
 
@@ -147,7 +155,7 @@ nav{
   height:765px;
   margin:0;
   background-repeat:no-repeat;
-  background-position: 0 6em;
+  /*background-position: 0 6em;*/
   opacity:0.7;
   background-size:2149px 1433px;
 }
@@ -196,8 +204,8 @@ input{
 }
 
 textarea{
-  width: 60%;
-  height: 25%;
+  width: 66%;
+  height: 20%;
 }
 
 select{
@@ -208,24 +216,23 @@ select{
 }
 
 .check-box{
-  margin-bottom: 1em;
+
 }
 
 .check-box label{
-  margin-right: 1em;
-}
-
-form .button{
-  margin: 1.2em 0.2em;
+  margin: 1em 0;
 }
 
 
 /*PANELS-padding, etc.*/
 .image-placeholder{
-  border: 1px solid #ccc;
-  width: 100%;
-  height: auto;
   margin-top: 3em;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  opacity: 0.85;
 }
 
 .service{
