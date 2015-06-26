@@ -259,7 +259,13 @@ footer img{
 }
 
 footer{
-  margin:1.5em;
+  margin:0;
+  border-top:0.1em solid #041135;
+
+}
+
+.footer-wrap{
+  margin-top:12em;
 
 }
 
