@@ -13,6 +13,7 @@ h1, h2{
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 0;
+  display:block;
 }
 
 h1{
@@ -30,10 +31,21 @@ h2{
 }
 
 h3{
+<<<<<<< HEAD
   text-transform: uppercase;
   font-size: 1em;
   font-weight: bold;
   margin-top: 2em;
+=======
+  font-size:1em;
+  color:#C1272D;
+  font-family:'Montserrat', sans-serif;
+  letter-spacing:0.02em;
+  font-weight:400;
+  text-transform:uppercase;
+
+
+>>>>>>> dev2
 }
 
 .subtitle{
@@ -151,13 +163,14 @@ nav{
 
 .img-header{
 
-  background-image:url(../img/radiator.jpg);
+  background-image:url(../img/fan2-loweropacity.png);
   height:765px;
   margin:0;
   background-repeat:no-repeat;
-  /*background-position: 0 6em;*/
-  opacity:0.7;
+  background-position: 0 6em;
+  /*opacity:0.5;*/ /*can't use this without making childeren opaque as well*/
   background-size:2149px 1433px;
+  padding-top:15em; /*padding for feature element text*/
 }
 
 
@@ -180,8 +193,21 @@ nav{
 
 }*/
 
-
 /*Feature*/
+
+.feature-wrap {
+  z-index:2;
+  position:relative;
+  margin:0 auto;
+  width:50%;
+
+}
+
+.feature-buttons > .button{
+  margin-top:2em;
+
+}
+
 
 
 /*FORM*/
@@ -224,6 +250,8 @@ select{
 }
 
 
+
+
 /*PANELS-padding, etc.*/
 .image-placeholder{
   margin-top: 3em;
@@ -243,4 +271,49 @@ img{
 
 .service p{
   text-align: left;
+}
+
+
+/*ABOUT SECTION*/
+#about-wrapper{
+
+  background-image:url(../img/duo-mechanics-opacity.jpg);
+  height:65%;
+  margin:0;
+  background-repeat:no-repeat;
+  background-position: 0 6em;
+  background-size:1936px 1296px;
+  padding-top:15em; /*padding for feature element text*/
+}
+
+#about-title{
+  margin: 0 auto;
+  position:relative;
+  width:50%;
+
+}
+
+#about-body-text{
+  margin:2em 20em;
+
+}
+
+
+
+
+/*FOOTER/CONTACT US*/
+
+footer img{
+  vertical-align:middle;
+}
+
+footer{
+  margin:0;
+  border-top:0.1em solid #041135;
+
+}
+
+.footer-wrap{
+  margin-top:12em;
+
 }

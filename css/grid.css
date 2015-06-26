@@ -50,11 +50,10 @@
 
 @media (max-width: 46em){
   nav{
-    margin-top:5em;
+    margin-top:2em;
     margin-left:auto;
     margin-right:auto;
-    left:auto;
-    right:auto;
+    margin-bottom:4em;
     position:relative;
 
   }
@@ -72,13 +71,35 @@
 
   }
 
-  .logo{
-
-    position:absolute;
+  .logo{    
     margin-left:auto;
     margin-right:auto;
+    position:relative;
+    margin:0 auto;
+    width:90%;
+    text-align:center;
   }
 
+  .feature-wrap{
+    width:100%;
+
+  }
+
+
+}
+
+
+@media (max-width: 39em){ /*for footer*/
+  .col-4of12{
+    display:block;
+    width:100%;
+
+  }
+
+  footer{
+    display:block;
+
+  }
 
 }
 
