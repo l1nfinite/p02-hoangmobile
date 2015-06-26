@@ -31,21 +31,11 @@ h2{
 }
 
 h3{
-<<<<<<< HEAD
   text-transform: uppercase;
   font-size: 1em;
   font-weight: bold;
   margin-top: 2em;
-=======
-  font-size:1em;
   color:#C1272D;
-  font-family:'Montserrat', sans-serif;
-  letter-spacing:0.02em;
-  font-weight:400;
-  text-transform:uppercase;
-
-
->>>>>>> dev2
 }
 
 .subtitle{
@@ -293,7 +283,7 @@ img{
 }
 
 #about-body-text{
-  margin:2em 20em;
+  margin:2em 20%;
 
 }
 
