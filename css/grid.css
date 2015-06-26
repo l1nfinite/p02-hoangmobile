@@ -69,7 +69,7 @@
   }
 
   .logo{
-    
+
     position:absolute;
     margin-left:auto;
     margin-right:auto;
@@ -124,8 +124,13 @@
 
   .dropdown{
     display:block;
-    width:100%;
+    width:20em;
     height:2.5em;
+  }
+
+  textarea{
+    width: 30em;
+    height: 10em;
   }
 
   .check-box label{
