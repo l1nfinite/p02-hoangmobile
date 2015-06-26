@@ -1,7 +1,6 @@
 *, *::after, *::before{
   box-sizing: border-box;
 }
-
 body{
   font-family: 'open sans', sans-serif;
   background-color: #171D61;
@@ -96,8 +95,10 @@ a:hover, a:active, a:focus{
 .head{
   background-color:#C1272D;
   width: 100%;
-  height:5em;
+  /*height:5em;*/
   margin:0;
+  position:relative;
+  z-index:6;
 }
 
 .logo{
@@ -109,11 +110,11 @@ a:hover, a:active, a:focus{
   padding: 0.5em;
   font-size: 1.5em;
   float: left;
-  margin-top: 0.5em;
-  margin-left: 2em;
+  margin: 0.5em;
   background-color:transparent;
   float: left;
   z-index: 5;
+  position:relative;
 }
 
 
@@ -126,18 +127,54 @@ nav{
 .box-item-nav{
   display: inline-block;
   color: white;
-  background-color: #C1272D;
+  background-color: transparent;
   font-family: 'Montserrat', sans-serif;
   text-transform:uppercase;
   font-size: 0.8em;
   letter-spacing: 0.25em;
   float: right;
-  border:0.25em solid #fff;
+  /*border:0.25em solid #fff;*/
   padding:1em;
 
+}
 
+.box-item-nav:hover, .box-item-nav:active, .box-item-nav:focus{
+  background-color: #C1272D;
+  letter-spacing:0.25em;
+}
+
+
+.img-header{
+
+  background-image:url(../img/radiator.jpg);
+  height:765px;
+  margin:0;
+  background-repeat:no-repeat;
+  background-position: 0 6em; 
+  opacity:0.7;
+  background-size:2149px 1433px;
+}
+
+
+
+/*.image-container{
+  position:absolute;
+  bottom:0%;
+  left:0%;
+  top:6em;
+  height:100%;
+  width:100%;
+  overflow:hidden;
+  z-index:1;
+  margin:0;
 
 }
+
+.image-container > img{
+  opacity:0.7;
+
+}*/
+
 
 /*Feature*/
 
