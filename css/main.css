@@ -96,7 +96,7 @@ a:hover, a:active, a:focus{
 .head{
   background-color:#C1272D;
   width: 100%;
-  height:5em;
+  /*height:5em;*/
   margin:0;
 }
 
@@ -109,8 +109,7 @@ a:hover, a:active, a:focus{
   padding: 0.5em;
   font-size: 1.5em;
   float: left;
-  margin-top: 0.5em;
-  margin-left: 2em;
+  margin: 0.5em;
   background-color:transparent;
   float: left;
   z-index: 5;
@@ -126,18 +125,21 @@ nav{
 .box-item-nav{
   display: inline-block;
   color: white;
-  background-color: #C1272D;
+  background-color: transparent;
   font-family: 'Montserrat', sans-serif;
   text-transform:uppercase;
   font-size: 0.8em;
   letter-spacing: 0.25em;
   float: right;
-  border:0.25em solid #fff;
+  /*border:0.25em solid #fff;*/
   padding:1em;
 
-
-
 }
+
+.box-item-nav:hover, .box-item-nav:active, .box-item-nav:focus{
+  background-color: #C1272D;
+  letter-spacing:0.25em;
+
 
 /*Feature*/
 
