@@ -167,7 +167,6 @@ nav{
   height:765px;
   margin:0;
   background-repeat:no-repeat;
-  background-position: 0 6em;
   /*opacity:0.5;*/ /*can't use this without making childeren opaque as well*/
   background-size:2149px 1433px;
   padding-top:15em; /*padding for feature element text*/
@@ -260,7 +259,7 @@ select{
 img{
   max-width: 100%;
   height: auto;
-  opacity: 0.85;
+  opacity: 0.7;
 }
 
 .service{
