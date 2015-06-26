@@ -102,18 +102,19 @@
 
 }
 
+/*FOOTER*/
 
-/*.box, .feature-buttons{
+footer{
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
   flex-wrap: wrap;
 }
 
-.box-item-nav{
+.footer-item{
   flex-grow: 1;
   flex-shrink: 1;
-}*/
+}
 
 
 @media (max-width: 820px){
