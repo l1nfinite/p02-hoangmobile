@@ -2,7 +2,7 @@
 <head><meta charset="utf-8">
 	<link href="css/main.css" rel="stylesheet">
     <title>Hoang Mobile Styleguide</title>
-  
+
     <link href="css/grid.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700'
     rel='stylesheet' type='text/css'>
@@ -25,24 +25,26 @@
         <div class="box-item-nav">
           <a href="about.html" class="button-nav">About</a>
         </div>
+				<!--
         <div class="box-item-nav">
           <a href="contact.html" class="button-nav">Contact</a>
         </div>
+			-->
       </nav>
   </div>
-	
+
 
 
  <form>
-        	<label for="form-name">Name:</label>
+        	<label for="form-name"><h2>Name:</h2></label>
         	<input type="text" id="form-name" placeholder="Jane Doe">
 
-        	<label for="form-phone">Phone #:</label>
+        	<label for="form-phone"><h2>Phone #:</h2></label>
         	<input type="number" id="form-phone" placeholder="777.777.7777">
 
 
-        	
-	        <label for="form-car">What kind of car do you have?</label>
+
+	        <label for="form-car"><h2>What kind of car do you have?</h2></label>
 			    <select name="car-make" class="dropdown">
 			      <option>Make</option>
 			      <option>I don't know</option>
@@ -68,26 +70,26 @@
 				</select>
 
 
-        	<label for="form-comment">The Issue:</label>
+      	<label for="form-comment"><h2>The Issue:</h2></label>
 
-        	<div class="check-box">
-	        	<label>
-	        		<input type="checkbox" name="service-type" value="engine-repair" checked> Engine Repair
-	        	</label>
+      	<div class="check-box">
+        	<label>
+        		<input type="checkbox" name="service-type" value="engine-repair" checked> Engine Repair
+        	</label>
 
-	        	<label>
-					<input type="checkbox" name="service-type" value="vehicle-inspection"> Vehicle Inspection
-				</label>
+        	<label>
+						<input type="checkbox" name="service-type" value="vehicle-inspection"> Vehicle Inspection
+					</label>
 
-				<label>
-					<input type="checkbox" name="service-type" value="scheduled-maintenance"> Scheduled Maintenance
-				</label>
-			</div>
+					<label>
+						<input type="checkbox" name="service-type" value="scheduled-maintenance"> Scheduled Maintenance
+					</label>
+				</div>
 
-       		<textarea id="form-comment" placeholder="Please place comment here"></textarea>
+     		<textarea id="form-comment" placeholder="Please place comment here"></textarea>
+				<br>
+     		<input type="submit" value="Submit" class="button">
 
-       		<input type="submit" value="Submit" class="button">
-	       	
 
     	</form>
 
