@@ -19,6 +19,10 @@
   /*4/12 is about 33% so 1/3*/
 }
 
+.col-8of12{
+  width: 67%;
+}
+
 /*based on the 12 column grid we can create different proportions for example: */
 
 .col-6of12{
@@ -40,7 +44,6 @@
 /*any class that begins with 'col-' apply the styles*/
   float: left;
   padding: 0;
-  text-align: center;
 }
 
 
