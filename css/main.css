@@ -53,10 +53,6 @@ p{
 
 }
 
-nav{
-  float:right;
-
-}
 
 a{
   color: #fff;
@@ -73,7 +69,7 @@ a:hover, a:active, a:focus{
 
 .button{
   letter-spacing: 2px;
-  font-family:'Montserrat', serif;
+  font-family:'Montserrat', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   color: #C1272D;
@@ -90,8 +86,56 @@ a:hover, a:active, a:focus{
 
 .button:hover, .button:active, .button:focus{
   color: #89C1B9;
-  font-family:'Montserrat', serif;
+  font-family:'Montserrat', sans-serif;
   background-color:transparent;
+
+}
+
+/*NAVIGATION*/
+
+.head{
+  background-color:#C1272D;
+  width: 100%;
+  height:5em;
+  margin:0;
+}
+
+.logo{
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.1em;
+  border: 3px solid;
+  padding: 0.5em;
+  font-size: 1.5em;
+  float: left;
+  margin-top: 0.5em;
+  margin-left: 2em;
+  background-color:transparent;
+  float: left;
+  z-index: 5;
+}
+
+
+nav{
+  float:right;
+
+
+}
+
+.box-item-nav{
+  display: inline-block;
+  color: white;
+  background-color: #C1272D;
+  font-family: 'Montserrat', sans-serif;
+  text-transform:uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0.25em;
+  float: right;
+  border:0.25em solid #fff;
+  padding:1em;
+
+
 
 }
 
