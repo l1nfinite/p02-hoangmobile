@@ -1,7 +1,6 @@
 *, *::after, *::before{
   box-sizing: border-box;
 }
-
 body{
   font-family: 'open sans', sans-serif;
   background-color: #171D61;
@@ -54,10 +53,6 @@ p{
 
 }
 
-nav{
-  float:right;
-
-}
 
 a{
   color: #fff;
@@ -74,7 +69,7 @@ a:hover, a:active, a:focus{
 
 .button{
   letter-spacing: 2px;
-  font-family:'Montserrat', serif;
+  font-family:'Montserrat', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   color: #C1272D;
@@ -91,10 +86,96 @@ a:hover, a:active, a:focus{
 
 .button:hover, .button:active, .button:focus{
   color: #89C1B9;
-  font-family:'Montserrat', serif;
+  font-family:'Montserrat', sans-serif;
   background-color:transparent;
 
 }
+
+/*NAVIGATION*/
+
+.head{
+  background-color:#C1272D;
+  width: 100%;
+  /*height:5em;*/
+  margin:0;
+  position:relative;
+  z-index:6;
+}
+
+.logo{
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.1em;
+  border: 3px solid;
+  padding: 0.5em;
+  font-size: 1.5em;
+  float: left;
+  margin: 0.5em;
+  background-color:transparent;
+  float: left;
+  z-index: 5;
+  position:relative;
+}
+
+
+nav{
+  float:right;
+
+
+}
+
+.box-item-nav{
+  display: inline-block;
+  color: white;
+  background-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+  text-transform:uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0.25em;
+  float: right;
+  /*border:0.25em solid #fff;*/
+  padding:1em;
+
+}
+
+.box-item-nav:hover, .box-item-nav:active, .box-item-nav:focus{
+  background-color: #C1272D;
+  letter-spacing:0.25em;
+}
+
+
+.img-header{
+
+  background-image:url(../img/radiator.jpg);
+  height:765px;
+  margin:0;
+  background-repeat:no-repeat;
+  background-position: 0 6em;
+  opacity:0.7;
+  background-size:2149px 1433px;
+}
+
+
+
+/*.image-container{
+  position:absolute;
+  bottom:0%;
+  left:0%;
+  top:6em;
+  height:100%;
+  width:100%;
+  overflow:hidden;
+  z-index:1;
+  margin:0;
+
+}
+
+.image-container > img{
+  opacity:0.7;
+
+}*/
+
 
 /*Feature*/
 
@@ -111,12 +192,15 @@ form{
   margin-top: 0.5em;
 }
 
+label{
+}
+
 input{
   border: none;
 }
 
 textarea{
-  width: 50%;
+  width: 66%;
   height: 20%;
 }
 
@@ -128,12 +212,11 @@ select{
 }
 
 .check-box{
-  margin: 1em 0;
+
 }
 
 .check-box label{
-  text-transform: capitalize;
-  margin-right: 0.5em;
+  margin: 1em 0;
 }
 
 
