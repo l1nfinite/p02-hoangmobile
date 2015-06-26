@@ -87,6 +87,21 @@
 }
 
 
+@media (max-width: 39em){ /*for footer*/
+  .col-4of12{
+    display:block;
+    width:100%;
+
+  }
+
+  footer{
+    display:block;
+
+  }
+
+}
+
+
 /*.box, .feature-buttons{
   display: -webkit-flex;
   display: -ms-flex;
