@@ -12,6 +12,12 @@
   clear: both;
 }
 
+[class^='col-']{
+/*any class that begins with 'col-' apply the styles*/
+  float: left;
+  padding: 0;
+}
+
 
 /*this is a class i'm creating that's saying the div will take up 4 out of 12 total columns*/
 .col-4of12{
@@ -21,6 +27,7 @@
 
 .col-8of12{
   width: 67%;
+  padding: 0 2em;
 }
 
 /*based on the 12 column grid we can create different proportions for example: */
@@ -39,12 +46,6 @@
 }
 
 /*and so forth, I created a section id="test" to show how to use it in the html, I wasn't sure where you were going to put the panels plus it'll be good practice to do it yourself*/
-
-[class^='col-']{
-/*any class that begins with 'col-' apply the styles*/
-  float: left;
-  padding: 0;
-}
 
 
 @media (max-width: 46em){
