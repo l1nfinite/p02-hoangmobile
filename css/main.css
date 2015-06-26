@@ -30,6 +30,13 @@ h2{
 }
 
 h3{
+  font-size:1em;
+  color:#C1272D;
+  font-family:'Montserrat', sans-serif;
+  letter-spacing:0.02em;
+  font-weight:400;
+  text-transform:uppercase;
+
 
 }
 
@@ -152,7 +159,7 @@ nav{
   margin:0;
   background-repeat:no-repeat;
   background-position: 0 6em; 
-  /*opacity:0.5;*/
+  /*opacity:0.5;*/ /*can't use this without making childeren opaque as well*/
   background-size:2149px 1433px;
   padding-top:15em; /*padding for feature element text*/
 }
@@ -194,9 +201,9 @@ nav{
 
 
 
-
-
 /*FORM*/
+
+
 
 
 /*PANELS-padding, etc.*/
@@ -216,3 +223,13 @@ nav{
 .service p{
   text-align: left;
 }
+
+
+
+/*footer*/
+
+footer img{
+  vertical-align:middle;
+}
+
+
