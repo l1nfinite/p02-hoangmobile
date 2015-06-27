@@ -263,6 +263,8 @@ img{
 }
 
 
+
+
 /*ABOUT SECTION*/
 #about-wrapper{
 
@@ -292,14 +294,27 @@ img{
 
 /*FOOTER/CONTACT US*/
 
-footer img{
+/*footer img{
   vertical-align:middle;
+}*/
+footer{
+  margin-top: 2em;
+  padding: 2em 0;
+  border-top: 1px solid #89C1B9;
 }
 
-footer{
-  margin:0;
-  border-top:0.1em solid #041135;
+footer h2, h1, h3, p{
+  margin: 0;
+}
 
+.footer-item{
+  padding: 1em;
+}
+
+.footer-logo{
+  width: 24px;
+  height: auto;
+  vertical-align: middle;
 }
 
 .footer-wrap{
