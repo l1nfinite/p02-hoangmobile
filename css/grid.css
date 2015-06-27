@@ -132,7 +132,7 @@ footer{
 
 }
 
-
+/*Panels*/
 @media (max-width: 62.5em){
   .col-4of12{
     width:100%;
@@ -141,16 +141,24 @@ footer{
   .service{
     margin: 0 4em;
     padding-bottom: 3em;
-    border-bottom: 1px solid #89C1B9;
+    border-top: 1px solid #89C1B9;
   }
+
 
   img{
     max-width: 80%;
   }
 }
 
-@media (max-width: 37.5em){
+/*Footer*/
+@media (max-width: 44em){
+  .col-3of12, .col-6of12{
+    width: 100%;
+  }
+}
 
+/*Form*/
+@media (max-width: 37.5em){
   .dropdown{
     display:block;
     width:100%;
@@ -163,7 +171,7 @@ footer{
   }
 }
 
-
+/*Panels*/
 @media (max-width: 35em){
   .service{
     margin: 0 2em;
@@ -172,4 +180,5 @@ footer{
   img{
     max-width: 100%;
   }
+
 }
