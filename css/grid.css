@@ -181,4 +181,10 @@ footer{
     max-width: 100%;
   }
 
+  /*About Page description*/
+  #about-body-text{
+    margin:2em 1em;
+
+  }
+
 }
