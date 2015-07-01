@@ -12,11 +12,22 @@
   clear: both;
 }
 
+[class^='col-']{
+/*any class that begins with 'col-' apply the styles*/
+  float: left;
+  padding: 0;
+}
+
 
 /*this is a class i'm creating that's saying the div will take up 4 out of 12 total columns*/
 .col-4of12{
   width: 33%;
   /*4/12 is about 33% so 1/3*/
+}
+
+.col-8of12{
+  width: 67%;
+  padding: 0 2em;
 }
 
 /*based on the 12 column grid we can create different proportions for example: */
@@ -36,44 +47,71 @@
 
 /*and so forth, I created a section id="test" to show how to use it in the html, I wasn't sure where you were going to put the panels plus it'll be good practice to do it yourself*/
 
-[class^='col-']{
-/*any class that begins with 'col-' apply the styles*/
-  float: left;
-  padding: 0;
-  text-align: center;
-}
 
-
-@media (max-width: 768px){
+@media (max-width: 46em){
   nav{
-    clear: both;
-    background-color: #C1272D;
-    margin: 0;
-    width: 100%;
-    position: absolute;
-    top: 5em;
-    padding-left: 2em;
+    margin-top:2em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:4em;
+    position:relative;
+
+  }
+  .box-item-nav{
+    display:block;
+    width:100%;
+    text-align:center;
+    position:relative;
+
   }
 
-  body{
-    padding-top: 8em;
+  .button-nav{
+    font-size:1.5em;
+
   }
+
+  .logo{
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    margin:0 auto;
+    width:90%;
+    text-align:center;
+  }
+
+  .feature-wrap{
+    width:100%;
+
+  }
+
+
 }
 
-@media (max-width: 448px){
-  body{
-    padding-top: 10em;
+
+@media (max-width: 39em){ /*for footer*/
+  .col-4of12{
+    display:block;
+    width:100%;
+
   }
+
+  footer{
+    display:block;
+
+  }
+
 }
 
-.box, .feature-buttons{
+/*FOOTER*/
+
+footer{
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
   flex-wrap: wrap;
 }
 
-.box-item-nav{
+.footer-item{
   flex-grow: 1;
   flex-shrink: 1;
 }
@@ -94,16 +132,33 @@
 
 }
 
-
-@media(max-width: 1000px){ /*arbitrary # right now*/
+/*Panels*/
+@media (max-width: 62.5em){
   .col-4of12{
     width:100%;
   }
 
-  #form-name, #form-phone, #form-car, #form-comment {
-    width:100%;
+  .service{
+    margin: 0 4em;
+    padding-bottom: 3em;
+    border-top: 1px solid #89C1B9;
   }
 
+
+  img{
+    max-width: 80%;
+  }
+}
+
+/*Footer*/
+@media (max-width: 44em){
+  .col-3of12, .col-6of12{
+    width: 100%;
+  }
+}
+
+/*Form*/
+@media (max-width: 37.5em){
   .dropdown{
     display:block;
     width:100%;
@@ -114,7 +169,22 @@
     display:block;
     margin-top:1em;
   }
+}
 
+/*Panels*/
+@media (max-width: 35em){
+  .service{
+    margin: 0 2em;
+  }
 
+  img{
+    max-width: 100%;
+  }
+
+  /*About Page description*/
+  #about-body-text{
+    margin:2em 1em;
+
+  }
 
 }
