@@ -5,6 +5,7 @@ body{
   font-family: 'open sans', sans-serif;
   background-color: #171D61;
   color:#fff;
+  padding: 1em;
 }
 
 h1, h2{
@@ -30,14 +31,11 @@ h2{
 }
 
 h3{
-  font-size:1em;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 2em;
   color:#C1272D;
-  font-family:'Montserrat', sans-serif;
-  letter-spacing:0.02em;
-  font-weight:400;
-  text-transform:uppercase;
-
-
 }
 
 .subtitle{
@@ -84,6 +82,7 @@ a:hover, a:active, a:focus{
   font-size: 1.15rem;
   padding: 0.2em;
   margin: 1em;
+  margin-left: 0;
   font-weight: 700;
   outline:solid;
   border-bottom:none;
@@ -103,10 +102,11 @@ a:hover, a:active, a:focus{
 .head{
   background-color:#C1272D;
   width: 100%;
-  /*height:5em;*/
+  height:6em;
   margin:0;
   position:relative;
   z-index:6;
+  background: transparent;
 }
 
 .logo{
@@ -158,7 +158,6 @@ nav{
   height:765px;
   margin:0;
   background-repeat:no-repeat;
-  background-position: 0 6em; 
   /*opacity:0.5;*/ /*can't use this without making childeren opaque as well*/
   background-size:2149px 1433px;
   padding-top:15em; /*padding for feature element text*/
@@ -202,16 +201,56 @@ nav{
 
 
 /*FORM*/
+form{
+}
+
+#form-name, #form-phone, #form-car, #form-comment {
+  color: white;
+  background: transparent;
+  border: 0.1em solid #ccc;
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+
+label{
+}
+
+input{
+  border: none;
+}
+
+textarea{
+  width: 66%;
+  height: 20%;
+}
+
+select{
+  background: transparent;
+  color: white;
+  margin: 1.5em 1.5em 1.5em 0.1em;
+  height: 2em;
+}
+
+.check-box{
+
+}
+
+.check-box label{
+  margin: 1em 0;
+}
 
 
 
 
 /*PANELS-padding, etc.*/
 .image-placeholder{
-  border: 1px solid #ccc;
-  width: 100%;
-  height: auto;
   margin-top: 3em;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  opacity: 0.7;
 }
 
 .service{
@@ -225,6 +264,8 @@ nav{
 }
 
 
+
+
 /*ABOUT SECTION*/
 #about-wrapper{
 
@@ -232,7 +273,7 @@ nav{
   height:65%;
   margin:0;
   background-repeat:no-repeat;
-  background-position: 0 6em; 
+  /*background-position: 0 6em;*/
   background-size:1936px 1296px;
   padding-top:15em; /*padding for feature element text*/
 }
@@ -245,7 +286,7 @@ nav{
 }
 
 #about-body-text{
-  margin:2em 20em;
+  margin:2em 20%;
 
 }
 
@@ -254,14 +295,27 @@ nav{
 
 /*FOOTER/CONTACT US*/
 
-footer img{
+/*footer img{
   vertical-align:middle;
+}*/
+footer{
+  margin-top: 2em;
+  padding: 2em 0;
+  border-top: 1px solid #89C1B9;
 }
 
-footer{
-  margin:0;
-  border-top:0.1em solid #041135;
+footer h2, h1, h3, p{
+  margin: 0;
+}
 
+.footer-item{
+  padding: 1em;
+}
+
+.footer-logo{
+  width: 24px;
+  height: auto;
+  vertical-align: middle;
 }
 
 .footer-wrap{
@@ -269,3 +323,17 @@ footer{
 
 }
 
+#footer-name, #footer-phone, #footer-comment{
+  color: white;
+  background: transparent;
+  border: 0.1em solid #ccc;
+  padding: 0.5em;
+  margin: 0.5em 0 1.5em 0;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+  width: 100%;
+}
+
+#footer-comment{
+  height: 10em;
+}

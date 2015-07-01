@@ -1,8 +1,8 @@
 <html>
 <head><meta charset="utf-8">
 	<link href="css/main.css" rel="stylesheet">
-    <title>Hoang Mobile Styleguide</title>
-  
+    <title>Hoang Mobile About</title>
+
     <link href="css/grid.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700'
     rel='stylesheet' type='text/css'>
@@ -28,9 +28,11 @@
       <div class="box-item-nav">
         <a href="about.html" class="button-nav">About</a>
       </div>
+			<!--
       <div class="box-item-nav">
         <a href="contact.html" class="button-nav">Contact</a>
       </div>
+		-->
     </nav>
   </div>
 
@@ -40,36 +42,52 @@
     </div>
   </div>
 
-    <p id="about-body-text">We’re a small local automotive business with over 20 years of experience. The company is run by husband and wife working side by side out of the garage of our home and mobile van. Our philosophy is trust and transparency; we won’t charge you any hidden fees and only do the services that are absolutely needed. 
+    <p id="about-body-text">We’re a small local automotive business with over 20 years of experience. The company is run by husband and wife working side by side out of the garage of our home and mobile van. Our philosophy is trust and transparency; we won’t charge you any hidden fees and only do the services that are absolutely needed.
     </p>
 
-
-<div class="footer-wrap">
-
-    <footer class="grid-row">
-
-    <div class="col-3of12">
-     <h2> <img src="img/icon/call-aqua-circle.svg" alt="icon image of a telephone" width="24" height="24">
-      contact</h2>
-
-    </div>
-
-    <div class="col-3of12">
-      <!--<h2>Contact</h2>-->
-      <h3>Hoang Ta<br/>(Mechanic)</h3>
-    </div>
-
-    <div class="col-3of12">
-      
-      <p>604.220.9788 <br/>or 778.782.9132</p>
-      </div>
-
-      <div class="col-3of12">
-      <p>1157 Surrey Rd <br/>
-        V3R 5T6 Surrey, BC</p>
-     </div>
-
-  </footer>
 </div>
+
+	<!--Start of Footer-->
+	<footer class="grid">
+		<div class="col-3of12">
+			<div class="footer-item">
+				<div class="contact">
+					<h2><img src="img/icon/call-aqua-circle.svg" alt="icon image of a telephone" class="footer-logo"> Contact:</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-3of12">
+			<div class="footer-item">
+				<h3>Hoang Ta</h3>
+				<p>(Mechanic)</p>
+			</div>
+			<div class="footer-item">
+				<h3>Phone Number</h3>
+				<p>604.220.9788 or 778.782.9132</p>
+			</div>
+			<div class="footer-item">
+				<h3>Location Address</h3>
+				<p>1157 Surrey Rd<br>V3R 5T6 Surrey, BC</p>
+			</div>
+		</div>
+
+		<div class="col-6of12">
+			<div class="footer-item">
+				<h3>Customer Feedback</h3>
+				<form>
+					<label for="footer-name"><h2>Name:</h2></label>
+					<input type="text" id="footer-name" placeholder="Jane Doe">
+
+					<label for="footer-phone"><h2>Phone:</h2></label>
+					<input type="text" id="footer-phone" placeholder="777.777.7777">
+
+					<label for="footer-comment"><h2>Message:</h2></label>
+					<textarea id="footer-comment" placeholder="Please take some time to give us feedback on our services"></textarea>
+				</form>
+			</div>
+		</div>
+	</footer>
+	<!-- End of Footer-->
 
 </body>
