@@ -6,6 +6,7 @@ body{
   background-color: #171D61;
   color:#fff;
   padding: 1em;
+  font-size: 1rem;
 }
 
 h1, h2{
@@ -150,16 +151,18 @@ nav{
 }
 
 
-.img-header{
+#main-header{
 
-  background-image:url(../img/fan2-loweropacity.png);
+  background-image:url(../img/fan2-retina.png);
   height:765px;
   margin:0;
   background-repeat:no-repeat;
   /*opacity:0.5;*/ /*can't use this without making childeren opaque as well*/
-  background-size:2149px 1433px;
+  /*background-size:2149px 1433px;*/
+  background-size:100%;
   padding-top:15em; /*padding for feature element text*/
 }
+
 
 
 
@@ -335,3 +338,4 @@ footer h2, h1, h3, p{
 #footer-comment{
   height: 10em;
 }
+
