@@ -186,7 +186,7 @@ footer{
 /*Header images*/
 @media (max-width: 55em){
   body>#main-header{
-    background-size:100px 100px;
+    background-size: cover;
 
   }
 
