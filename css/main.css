@@ -348,17 +348,16 @@ footer h2, h1, h3, p{
   background: rgba(0,0,0,0.8);
   z-index: 99999;
   opacity:0;
-  -webkit-transition: opacity 400ms ease-in;
-  -moz-transition: opacity 400ms ease-in;
-  transition: opacity 400ms ease-in;
-  /*pointer-events: none;*/
-   display:none;
+  
+  pointer-events: none;
 }
 
 .modal-dialog:target {
   opacity:1;
   pointer-events: auto;
-  display:inline;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
 }
 
 .modal-dialog > div {
