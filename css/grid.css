@@ -189,9 +189,17 @@ footer{
 }
 
 /*Header images*/
-@media (max-width: 55em){
+
+@media (max-width: 75em){ /*1200 px screen size*/
+  body>#main-header{
+    background-image:url(../img/fan2-large.png);
+    background-size:contain;
+  }
+
+@media (max-width: 55em){ /*880 px screen size*/
   body>#main-header{
     background-size:cover;
+    background-image:url(../img/fan2-medium.png);
 
   }
 
@@ -202,21 +210,11 @@ footer{
 
 }
 
-@media (max-width: 1200px){
+@media (max-width: 25em){ /*400 px screen size*/
   body>#main-header{
-    background-image:url(../img/fan2-large.png);
-    background-size:contain;
+    background-image:none;
   }
-
-@media (max-width: 800px){
-  body>#main-header{
-    background-image:url(../img/fan2-medium2.png);
-    background-size:contain;
-  }
-
-
-@media (max-width: 400px){
-  body>#main-header{
+  body>#about-wrapper{
     background-image:none;
   }
 
