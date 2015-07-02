@@ -85,6 +85,7 @@
   }
 
 
+
 }
 
 
@@ -186,9 +187,15 @@ footer{
 /*Header images*/
 @media (max-width: 55em){
   body>#main-header{
-    background-size: cover;
+    background-size:cover;
 
   }
+
+  body>#about-wrapper{
+    background-size:cover;
+  }
+
+
 
 
 }
