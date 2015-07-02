@@ -351,19 +351,21 @@ footer h2, h1, h3, p{
   -webkit-transition: opacity 400ms ease-in;
   -moz-transition: opacity 400ms ease-in;
   transition: opacity 400ms ease-in;
-  pointer-events: none;
+  /*pointer-events: none;*/
+   display:none;
 }
 
 .modal-dialog:target {
   opacity:1;
   pointer-events: auto;
+  display:inline;
 }
 
 .modal-dialog > div {
-  width: 20em;
+  width: 25em;
   position: relative;
   margin: 10% auto;
-  padding: 5px 20px 13px 20px;
+  padding: 0.1em 1.5em 1em 1.5em;
   background: #000;
   
 }
