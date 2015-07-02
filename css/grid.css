@@ -84,6 +84,10 @@
 
   }
 
+ .nav-mobile-center{
+  position:relative;
+  width:100%;
+}
 
 
 }
@@ -196,6 +200,28 @@ footer{
   }
 
 
+}
+
+@media (max-width: 1200px){
+  body>#main-header{
+    background-image:url(../img/fan2-large.png);
+    background-size:contain;
+  }
+
+@media (max-width: 800px){
+  body>#main-header{
+    background-image:url(../img/fan2-medium2.png);
+    background-size:contain;
+  }
+
+
+@media (max-width: 400px){
+  body>#main-header{
+    background-image:none;
+    background-size:contain;
+    margin-top:12.5em;
+    padding-bottom:10em;
+  }
 
 
 }
