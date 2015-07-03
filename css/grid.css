@@ -212,6 +212,10 @@ footer{
     background-size:contain;
   }
 
+  .img-header{
+  background-image:url(../img/radiator-large.png);
+  }
+
 }
 
 @media (max-width: 55em){ /*880 px screen size*/
@@ -226,6 +230,11 @@ footer{
     background-size:cover;
   }
 
+  .img-header{
+  background-image:url(../img/radiator-medium.png);
+  background-size:cover;
+  }
+
 
 }
 
@@ -237,6 +246,10 @@ footer{
   body>#about-wrapper{
     background-image:none;
     height:20em;
+  }
+
+  .img-header{
+  background-image:none;
   }
 
 
