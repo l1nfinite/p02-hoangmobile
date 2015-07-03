@@ -39,7 +39,10 @@
 
 
 
+
+
   	<div class="feature-wrap">
+
 
 
       		<!--<h1>we specialize in </h1>
@@ -50,12 +53,60 @@
 
 
 
-      	<div class="feature-buttons">
-      			<a href="#" class="button">Learn More</a>
-      			<a href="estimate.html" class="button">Get Estimate</a>
-      	</div>
 
-      </div>
+      	
+
+    	<div class="feature-buttons">
+    			<a href="#" class="button">Learn More</a>
+    			<a href="estimate.html" class="button">Get Estimate</a>
+          <a href="#open-modal" class="button">Open Modal</a>
+
+          <div id="open-modal" class="modal-dialog">
+            <div>
+              <a href="#close" title="Close" class="close">X</a>
+              <h1>
+                Fill in your information
+              </h1>
+              <form>
+                <label for="form-name"><h2>Name:</h2></label>
+                <input type="text" id="form-name" placeholder="Jane Doe">
+
+                <label for="form-phone"><h2>Phone #:</h2></label>
+                <input type="number" id="form-phone" placeholder="777.777.7777">
+
+
+
+                <label for="form-car"><h2>What kind of car do you have?</h2></label>
+                <select name="car-make" class="dropdown">
+                  <option>Make</option>
+                  <option>I don't know</option>
+                <option>Audi</option>
+                <option>Audi</option>
+                <option>Audi</option>
+              </select>
+
+              <select name="car-year" class="dropdown">
+                <option>Year</option>
+                  <option>I don't know</option>
+                <option>2015</option>
+                <option>2015</option>
+                <option>2015</option>
+              </select>
+
+              <select name="car-model" class="dropdown">
+                <option>Model</option>
+                  <option>I don't know</option>
+                <option>A3</option>
+                <option>A3</option>
+                <option>A3</option>
+              </select>
+              </form>
+ 
+            </div>
+          </div>
+    	</div>
+
+    </div>
 
   </div>
 
@@ -79,7 +130,7 @@
         </div>
           <h2>Engine Repair</h2>
             <p>We can provide services to inspect, maintain, and repair your engine if weird noises and/or a bad start up occurs.<p>
-        <a href="estimate.html" class="button">Get Estimate</a>
+        <a href="#" class="button overlay estimate-modal">Get Estimate</a>
       </div>
     </div>
 
