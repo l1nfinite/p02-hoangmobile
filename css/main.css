@@ -126,6 +126,13 @@ a:hover, a:active, a:focus{
   position:relative;
 }
 
+a.logo-hover:hover{
+  background-color:none;
+  padding:0;
+
+
+}
+
 
 nav{
   float:right;
@@ -269,12 +276,12 @@ img{
 /*ABOUT SECTION*/
 #about-wrapper{
 
-  background-image:url(../img/duo-mechanics-opacity.jpg);
+  background-image:url(../img/duo-mechanics-large.png);
   height:65%;
   margin:0;
   background-repeat:no-repeat;
   /*background-position: 0 6em;*/
-  background-size:1936px 1296px;
+  background-size:cover;
   padding-top:15em; /*padding for feature element text*/
 }
 

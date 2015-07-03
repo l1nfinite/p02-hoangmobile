@@ -212,6 +212,8 @@ footer{
     background-size:contain;
   }
 
+}
+
 @media (max-width: 55em){ /*880 px screen size*/
   body>#main-header{
     background-size:cover;
@@ -220,6 +222,7 @@ footer{
   }
 
   body>#about-wrapper{
+    background-image:url(../img/duo-mechanics-medium.png);
     background-size:cover;
   }
 
