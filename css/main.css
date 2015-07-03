@@ -295,8 +295,16 @@ img{
   margin: 5em 2em;
 }
 
-#product-body-text{
-  margin: 7em 2em;
+.product-body{
+  padding: 4em 2em;
+}
+
+.product-body p{
+  margin-bottom: 2em;
+}
+
+.product-txt{
+  padding-right: 4em;
 }
 
 
