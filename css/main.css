@@ -315,9 +315,10 @@ img{
   padding-right: 4em;
 }
 
+/*img header for product listing*/
 .img-header{
-  background-image:url(../img/fan2-loweropacity.png);
-  height:500px;
+  background-image:url(../img/radiator-retina.png);
+  height:37.5em;
   margin:0;
   background-repeat:no-repeat;
   background-size:100%;
