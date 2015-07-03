@@ -218,6 +218,14 @@ form{
 }
 
 label{
+  font-family:'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  display:block;
+  font-size: 1.17em;
+  color: #89c1b9;
+  letter-spacing: 0.02em;
 }
 
 input{
@@ -383,7 +391,7 @@ footer h2, h1, h3, p{
   background: rgba(0,0,0,0.8);
   z-index: 99999;
   opacity:0;
-  
+
   pointer-events: none;
 }
 
@@ -401,7 +409,7 @@ footer h2, h1, h3, p{
   margin: 10% auto;
   padding: 0.1em 1.5em 1em 1.5em;
   background: #000;
-  
+
 }
 
 .close {
@@ -420,9 +428,6 @@ footer h2, h1, h3, p{
 @media (max-width: 37.5em){
 
   .modal-dialog > div {
-  width: 100%;  
+  width: 100%;
   }
 }
-
-
-
