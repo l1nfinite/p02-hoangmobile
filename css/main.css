@@ -383,7 +383,7 @@ footer h2, h1, h3, p{
 
 .modal-dialog {
   position: fixed;
-  font-family: "Montserrat" sans-serif;
+  font-family: "Montserrat", sans-serif;
   top: 0;
   right: 0;
   bottom: 0;
