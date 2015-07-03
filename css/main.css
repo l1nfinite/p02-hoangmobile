@@ -157,8 +157,6 @@ nav{
   height:765px;
   margin:0;
   background-repeat:no-repeat;
-  /*opacity:0.5;*/ /*can't use this without making childeren opaque as well*/
-  /*background-size:2149px 1433px;*/
   background-size:100%;
   padding-top:15em; /*padding for feature element text*/
 }
@@ -292,7 +290,33 @@ img{
 
 }
 
+/*Product Page*/
+.ac-radiator {
+  z-index:2;
+  position: absolute;
+  margin: 2em 2em;
+}
 
+.product-body{
+  padding: 4em 2em;
+}
+
+.product-body p{
+  margin-bottom: 2em;
+}
+
+.product-txt{
+  padding-right: 4em;
+}
+
+.img-header{
+  background-image:url(../img/fan2-loweropacity.png);
+  height:500px;
+  margin:0;
+  background-repeat:no-repeat;
+  background-size:100%;
+  padding-top:15em;
+}
 
 
 /*FOOTER/CONTACT US*/
