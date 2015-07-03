@@ -232,9 +232,11 @@ footer{
 @media (max-width: 25em){ /*400 px screen size*/
   body>#main-header{
     background-image:none;
+  
   }
   body>#about-wrapper{
     background-image:none;
+    height:20em;
   }
 
 
