@@ -387,7 +387,12 @@ footer h2, h1, h3, p{
   border-bottom:none;
 }
 
+@media (max-width: 37.5em){
 
+  .modal-dialog > div {
+  width: 100%;  
+  }
+}
 
 
 
