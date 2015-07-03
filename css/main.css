@@ -125,7 +125,7 @@ a:hover, a:active, a:focus{
 }
 
 a.logo-hover:hover{
-  background-color:none;
+  background-color:transparent;
   padding:0;
 
 
