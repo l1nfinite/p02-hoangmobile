@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hoang Auto: A/C & Radiator</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700'
+    rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <!--Start of Header-->
+    <div class="head">
+      <h1 class="logo">Hoang Auto</h1>
+      <nav>
+        <div class="box-item-nav">
+          <a href="index.html" class="button-nav">Home</a>
+        </div>
+        <div class="box-item-nav">
+          <a href="about.html" class="button-nav">About</a>
+        </div>
+      </nav>
+    </div>
+    <!--End of Header-->
+
+    <!--Start of Pop-Up Modal-->
+    <div id="open-modal" class="modal-dialog">
+      <div>
+        <a href="#close" title="Close" class="close">X</a>
+        <h2>
+          Want an Estimate? Fill in your information
+        </h2>
+
+        <form>
+          <label for="form-name"><h2>Name:</h2></label>
+          <input type="text" id="form-name" placeholder="Jane Doe">
+
+          <label for="form-phone"><h2>Phone #:</h2></label>
+          <input type="text" id="form-phone" placeholder="777.777.7777">
+
+          <label for="form-car"><h2>What kind of car do you have?</h2></label>
+          <select name="car-make" class="dropdown">
+            <option>Make</option>
+            <option>I don't know</option>
+            <option>Audi</option>
+            <option>Audi</option>
+            <option>Audi</option>
+          </select>
+
+          <select name="car-year" class="dropdown">
+            <option>Year</option>
+            <option>I don't know</option>
+            <option>2015</option>
+            <option>2015</option>
+            <option>2015</option>
+          </select>
+
+          <select name="car-model" class="dropdown">
+            <option>Model</option>
+            <option>I don't know</option>
+            <option>A3</option>
+            <option>A3</option>
+            <option>A3</option>
+          </select>
+
+          <a href="#close" class="button">Submit</a>
+        </form>
+      </div>
+    </div>
+
+    <!--End of Pop-up modal-->
+
+    <div class="img-header">
+      <div class="ac-radiator">
+        <h1>A/C & Radiators</h1><br>
+        <h2 class="subtitle">Control the temperature, Install an A/C or Radiator today!</h2>
+      </div>
+    </div>
+
+    <div class="product-body">
+      <p>
+        We offer to repair and install your vehicle's A/C and Radiator for those hot summer days. A single A/C is roughly estimated to be $80-$100 whereas, a duo A/C will range from $120-$150. Prices vary depending on the vehicle. We can provide a more precise price with more information about the vehicle's model, make and year. If unsure of what kind of vehicle you have or if you do not understand the problem, feel free to bring it in for an inspection to get a proper diagnosis.
+      </p>
+
+      <div class="grid">
+
+        <div class="col-6of12">
+          <h2>Air Conditioning</h2>
+          <p class="product-txt">
+            The A/C is divided into two sides, known as the high and low side. On the high side, the compressor functions like a pump, moving refrigerant hrough the sstem. On the low side, the expansion valve restricts refrigerant flow, lowering the pressure and the temperature.
+          </p>
+        </div>
+
+        <div class="col-6of12">
+          <h2>Radiator</h2>
+          <p class="product-txt">
+            The radiator acts as art of the vehicle's cooling system, circulating antifreeze/coolant through a series of tubes towards the core of the engine. Air passes through the cooling fins surrounding the core, releasing heat onto the fins to dissipate the heat. This is necessary to prevent the vehicle from overheating.
+          </p>
+        </div>
+
+      </div>
+
+      <a href="#open-modal" class="button">Get Estimate</a>
+    </div>
+
+
+    <!--Start of Footer-->
+    <footer class="grid">
+      <div class="col-3of12">
+        <div class="footer-item">
+          <div class="contact">
+            <h2><img src="img/icon/call-aqua-circle.svg" alt="icon image of a telephone" class="footer-logo"> Contact:</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3of12">
+        <div class="footer-item">
+          <h3>Hoang Ta</h3>
+          <p>(Mechanic)</p>
+        </div>
+        <div class="footer-item">
+          <h3>Phone Number</h3>
+          <p>604.220.9788 or 778.782.9132</p>
+        </div>
+        <div class="footer-item">
+          <h3>Location Address</h3>
+          <p>1157 Surrey Rd<br>V3R 5T6 Surrey, BC</p>
+        </div>
+      </div>
+
+      <div class="col-6of12">
+        <div class="footer-item">
+          <h3>Customer Feedback</h3>
+          <form>
+            <label for="footer-name"><h2>Name:</h2></label>
+            <input type="text" id="footer-name" placeholder="Jane Doe">
+
+            <label for="footer-phone"><h2>Phone:</h2></label>
+            <input type="text" id="footer-phone" placeholder="777.777.7777">
+
+            <label for="footer-comment"><h2>Message:</h2></label>
+            <textarea id="footer-comment" placeholder="Please take some time to give us feedback on our services"></textarea>
+            <input type="submit" value="Submit" class="button">
+          </form>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer-->
+
+  </body>
+
+</html>

@@ -6,7 +6,7 @@ body{
   background-color: #171D61;
   color:#fff;
   padding: 1em;
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 h1, h2{
@@ -69,7 +69,6 @@ a{
 a:hover, a:active, a:focus{
   background-color:#C1272D;
   text-decoration: none;
-  padding:0.2em;
   border-bottom:none;
 }
 
@@ -95,7 +94,6 @@ a:hover, a:active, a:focus{
   color: #89C1B9;
   font-family:'Montserrat', sans-serif;
   background-color:transparent;
-
 }
 
 /*NAVIGATION*/
@@ -161,11 +159,9 @@ nav{
 #main-header{
 
   background-image:url(../img/fan2-retina.png);
-  height:765px;
+  height:48em;
   margin:0;
   background-repeat:no-repeat;
-  /*opacity:0.5;*/ /*can't use this without making childeren opaque as well*/
-  /*background-size:2149px 1433px;*/
   background-size:100%;
   padding-top:15em; /*padding for feature element text*/
 }
@@ -279,7 +275,7 @@ img{
 #about-wrapper{
 
   background-image:url(../img/duo-mechanics-large.png);
-  height:65%;
+  height:35em;
   margin:0;
   background-repeat:no-repeat;
   /*background-position: 0 6em;*/
@@ -291,6 +287,7 @@ img{
   margin: 0 auto;
   position:relative;
   width:50%;
+  margin-top:5em;
 
 }
 
@@ -299,7 +296,33 @@ img{
 
 }
 
+/*Product Page*/
+.ac-radiator {
+  z-index:2;
+  position: absolute;
+  margin: 2em 2em;
+}
 
+.product-body{
+  padding: 4em 2em;
+}
+
+.product-body p{
+  margin-bottom: 2em;
+}
+
+.product-txt{
+  padding-right: 4em;
+}
+
+.img-header{
+  background-image:url(../img/fan2-loweropacity.png);
+  height:500px;
+  margin:0;
+  background-repeat:no-repeat;
+  background-size:100%;
+  padding-top:15em;
+}
 
 
 /*FOOTER/CONTACT US*/
