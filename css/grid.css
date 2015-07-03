@@ -167,12 +167,22 @@ footer{
   .dropdown{
     display:block;
     width:100%;
-    height:2.5em;
+    height:3.5em;
+    margin-top:1em;
   }
 
   .check-box label{
     display:block;
     margin-top:1em;
+  }
+
+  #form-name, #form-phone, #form-car, #form-comment {
+  height:3em;
+
+  }
+
+  .modal-dialog > div {
+  width: 100%;  
   }
 }
 

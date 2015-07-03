@@ -211,6 +211,7 @@ form{
   border: 0.1em solid #ccc;
   padding: 0.5em;
   margin-top: 0.5em;
+  width:100%;
 }
 
 label{
@@ -228,7 +229,7 @@ textarea{
 select{
   background: transparent;
   color: white;
-  margin: 1.5em 1.5em 1.5em 0.1em;
+  margin: 0.5em;
   height: 2em;
 }
 
@@ -338,4 +339,60 @@ footer h2, h1, h3, p{
 #footer-comment{
   height: 10em;
 }
+
+
+/*get estimate modal*/
+
+.modal-dialog {
+  position: fixed;
+  font-family: "Montserrat" sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:0;
+  
+  pointer-events: none;
+}
+
+.modal-dialog:target {
+  opacity:1;
+  pointer-events: auto;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+}
+
+.modal-dialog > div {
+  width: 30em;
+  position: relative;
+  margin: 10% auto;
+  padding: 0.1em 1.5em 1em 1.5em;
+  background: #000;
+  
+}
+
+.close {
+  color: #FFFFFF;
+  line-height: 25px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  width: 1.5em;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom:none;
+}
+
+@media (max-width: 37.5em){
+
+  .modal-dialog > div {
+  width: 100%;  
+  }
+}
+
+
 
