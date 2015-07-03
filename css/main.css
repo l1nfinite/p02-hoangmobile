@@ -159,7 +159,7 @@ nav{
 #main-header{
 
   background-image:url(../img/fan2-retina.png);
-  height:765px;
+  height:48em;
   margin:0;
   background-repeat:no-repeat;
   background-size:100%;
@@ -275,7 +275,7 @@ img{
 #about-wrapper{
 
   background-image:url(../img/duo-mechanics-large.png);
-  height:65%;
+  height:35em;
   margin:0;
   background-repeat:no-repeat;
   /*background-position: 0 6em;*/
