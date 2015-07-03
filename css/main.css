@@ -161,15 +161,6 @@ nav{
   padding-top:15em; /*padding for feature element text*/
 }
 
-.img-header{
-  background-image:url(../img/fan2-loweropacity.png);
-  height:633px;
-  margin:0;
-  background-repeat:no-repeat;
-  background-size:100%;
-  padding-top:15em;
-}
-
 
 
 
@@ -302,7 +293,7 @@ img{
 .ac-radiator {
   z-index:2;
   position: absolute;
-  margin: 5em 2em;
+  margin: 2em 2em;
 }
 
 .product-body{
@@ -315,6 +306,15 @@ img{
 
 .product-txt{
   padding-right: 4em;
+}
+
+.img-header{
+  background-image:url(../img/fan2-loweropacity.png);
+  height:500px;
+  margin:0;
+  background-repeat:no-repeat;
+  background-size:100%;
+  padding-top:15em;
 }
 
 
