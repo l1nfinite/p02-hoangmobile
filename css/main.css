@@ -6,7 +6,7 @@ body{
   background-color: #171D61;
   color:#fff;
   padding: 1em;
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 h1, h2{
@@ -69,7 +69,6 @@ a{
 a:hover, a:active, a:focus{
   background-color:#C1272D;
   text-decoration: none;
-  padding:0.2em;
   border-bottom:none;
 }
 
@@ -95,7 +94,6 @@ a:hover, a:active, a:focus{
   color: #89C1B9;
   font-family:'Montserrat', sans-serif;
   background-color:transparent;
-
 }
 
 /*NAVIGATION*/
