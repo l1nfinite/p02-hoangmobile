@@ -126,6 +126,13 @@ a:hover, a:active, a:focus{
   position:relative;
 }
 
+a.logo-hover:hover{
+  background-color:none;
+  padding:0;
+
+
+}
+
 
 nav{
   float:right;
