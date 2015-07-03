@@ -27,6 +27,7 @@ body{
   z-index: 5;
   position:relative;
 }
+
 h1, h2{
   font-family:'Montserrat', sans-serif;
   font-weight: 700;
@@ -41,6 +42,7 @@ h1{
   background-color:#89c1b9;
   padding: 0.1em 0.3em;
   display:inline-block;
+  margin-bottom: 1em;
 }
 
 h2{
@@ -53,7 +55,7 @@ h3{
   text-transform: uppercase;
   font-size: 1em;
   font-weight: bold;
-  margin-top: 2em;
+  margin-top: 1em;
   color:#C1272D;
 }
 
@@ -373,57 +375,43 @@ margin-bottom:-50em;
 
 }
 
-.header-wrap{
-  clear:right;
-  display:inline-block;
-  /*position: relative;
-  top: 5em;
-  left: 15em;*/
+/*Feature*/
+
+#main-header{
+
+  background-image:url(../img/fan2-retina.png);
+  height:765px;
+  margin:0;
+  background-repeat:no-repeat;
+  background-size:100%;
+  padding-top:15em; /*padding for feature element text*/
 }
 
-.header-wrap h2 {
-  float:right;
-  margin-top:0;
-  text-align: center;
+.feature-wrap {
+  z-index:2;
+  position:relative;
+  margin:0 auto;
+  width:50%;
+
 }
 
-.header-wrap h1{
-  margin-bottom: 0;
+.feature-buttons > .button{
+  margin-top:2em;
+
 }
 
-.feature{
-  margin: 0;
-  margin-left: -0.5em;
-  position: absolute;
-  height: 30em;
-  width: 100%;
-  border: 1px solid white;
-  background-color: white;
+
+/*Panels in key Groupings*/
+.image-placeholder{
+  margin-top: 3em;
 }
 
-.feature-header-wrap{
-  margin: 0;
-  text-align: center;
-  position: absolute;
-  width: 100%;
-  top: 30%;
+.service{
+  padding: 0 1em;
+  margin: 0 1.5em;
+  display: inline-block;
 }
 
-.feature-header-wrap h1, h2{
-  margin: 0 auto;
-  clear: both;
-}
-
-.feature-buttons{
-  margin-top: 2em;
-  position: absolute;
-  width: 100%;
-  -ms-justify-content: center;
-  justify-content: center;
-}
-
-.box{
-  align-items: stretch;
-  position: absolute;
-  right: 0;
+.service p{
+  text-align: left;
 }
