@@ -159,7 +159,7 @@ nav{
 #main-header{
 
   background-image:url(../img/fan2-retina.png);
-  height:48em;
+  height:44em;
   margin:0;
   background-repeat:no-repeat;
   background-size:100%;
@@ -286,10 +286,11 @@ img{
   height:35em;
   margin:0;
   background-repeat:no-repeat;
+  background-size:100%;
   /*background-position: 0 6em;*/
-  background-size:cover;
   padding-top:15em; /*padding for feature element text*/
 }
+
 
 #about-title{
   margin: 0 auto;
@@ -300,7 +301,7 @@ img{
 
 #about-body-text{
   margin:2em 20%;
-
+  padding-top: 1.5em;
 }
 
 /*Product Page*/
